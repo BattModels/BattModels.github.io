@@ -2,45 +2,10 @@
 venkat:
     display_name: "Venkat Viswanathan"
     webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
-    role: leadership
+    role: pi
     image: img/people/Venkat_Viswanathan.png
     bio: Associate Professor of Mechanical Engineering, Carnegie Mellon University
     email: "venkvis [at] cmu [dot] edu"
-
-alan:
-    display_name: "Alan Edelman"
-    webpage: "http://www-math.mit.edu/~edelman/"
-    role: leadership
-    image: img/people/Alan_Edelman.png
-    bio: Professor of Applied Mathematics, Massachusetts Institute of Technology
-    email: "edelman [at] mit [dot] edu"
-
-viral:
-    display_name: "Viral Shah"
-    github: ViralBShah
-    role: leadership
-    image: img/people/Viral_Shah.jpg
-    bio: Co-Founder and CEO, Julia Computing, Inc.
-
-chris:
-    display_name: "Chris Rackauckas"
-    github: ChrisRackauckas
-    webpage: "https://chrisrackauckas.com"
-    role: leadership
-    image: img/people/Chris_Rackauckas.jpg
-    bio: Scientific Advisor, Julia Computing, Inc.
-
-bryce:
-    display_name: "Bryce Meredig"
-    role: leadership
-    image: img/people/Bryce_Meredig.jpg
-    bio: CSO and Co-Founder, Citrine Informatics
-
-james:
-    display_name: "James Saal"
-    role: leadership
-    image: img/people/James_Saal.jpg
-    bio: Manger of External Research Programs, Citrine Informatics
 
 rachel:
     display_name: "Rachel Kurchin"
@@ -48,36 +13,11 @@ rachel:
     image: img/people/Rachel_Kurchin.jpg
     webpage: "http://rkurchin.github.io"
     email: "rkurchin [at] cmu [dot] edu"
-    bio: Manufacturing Future Initiatives Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
-
-clara:
-    display_name: "Clara Nyby"
-    role: postdoc
-    bio: Postdoctoral Fellow, Citrine Informatics
-
-vinay:
-    display_name: "Vinay Hegde"
-    role: postdoc
-    bio: Postdoctoral Fellow, Citrine Informatics
-
-eric:
-    display_name: "Eric Muckley"
-    role: staff
-    image: img/people/Eric_Muckley.jpg
-    email: "emuckley [at] citrine [dot] io"
-    bio: Research Scientist, Citrine Informatics
-
-dhairya:
-    display_name: "Dhairya Gandhi"
-    role: staff
-    webpage: "https://github.com/dhairyagandhi96"
-    image: img/people/Dhairya_Gandhi.jpeg
-    bio: Data Scientist, Julia Computing
-    email: "dhairya [at] juliacomputing [dot] com"
+    bio: Manufacturing Future Initiative Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
 
 lance:
     display_name: "Lance Kavalsky"
-    role: grad
+    role: phd
     image: img/people/Lance_Kavalsky.jpg
     bio: PhD Student, CMU Mechanical Engineering
     webpage: "https://scholar.google.com/citations?user=kPsUy9IAAAAJ&hl=en"
@@ -94,21 +34,3 @@ ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
     bio: Post-master's Researcher
-
-yy:
-    display_name: "Yu Yeol (Andy) Lee"
-    role: ugrad
-    image: img/people/YY_Lee.png
-    bio: Chemical Engineering exchange student from Yonsei University
-
-bharath:
-    display_name: "Bharath Ramsundar"
-    role: collab
-    bio: Lead developer for DeepChem
-    webpage: "https://rbharath.github.io"
-    image: img/people/Bharath_Ramsundar.jpeg
-
-shaojie:
-    display_name: "Shaojie Bai"
-    role: collab
-    bio: PhD Student, CMU Computer Science
