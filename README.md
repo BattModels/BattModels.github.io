@@ -9,11 +9,13 @@ This README is a slightly modified, compressed, and reorganized version of the o
 Quick Setup
 -----------
 
-1. Install the dependencies. You will need [Python][], [bibble][] (`pip install bibble`), and [Jekyll][] (`gem install jekyll`).
+1. Install the dependencies. You will need Python, bibble (`pip install bibble`), [Ruby][], and Jekyll (`gem install jekyll`).
 2. Clone the repo to your local machine. MAKE A BRANCH, DO NOT COMMIT TO MASTER!
 3. Type `make` to build the site and then run `make serve` to view the site locally.
 4. Make edits (see below for guidelines/gotchas for particular sections). Continue to preview locally to make sure things work as you want.
 5. Once you're happy with your changes, make a PR from your branch to master.
+
+[Ruby]: https://www.ruby-lang.org/en/
 
 Personnel
 ---------
