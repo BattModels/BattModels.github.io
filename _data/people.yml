@@ -34,3 +34,10 @@ ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
     bio: Post-master's Researcher
+
+alec:
+    display_name: "Alec Bills"
+    role: phd
+    image: img/people/Bills_Alexander_A.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: abills [at] andrew [dot] cmu [dot] edu
