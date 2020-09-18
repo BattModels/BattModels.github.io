@@ -14,6 +14,14 @@ rachel:
     email: "rkurchin [at] cmu [dot] edu"
     bio: Manufacturing Future Initiative Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
 
+greg:
+    display_name: "Gregory Houchins"
+    role: postdoc
+    image: img/people/Gregory_Houchins.png
+    webpage: "http://andrew.cmu.edu/~ghouchin"
+    email: "ghouchin [at] andrew [dot] cmu [dot] edu"
+    bio: Swartz Center for Entrepreneurship Innovation Fellow, Carnegie Mellon University
+
 lance:
     display_name: "Lance Kavalsky"
     role: phd
@@ -40,3 +48,25 @@ kian:
     image: img/people/jiankun_pu_pic.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: jiankunp [at] andrew [dot] cmu [dot] edu
+
+olga:
+    display_name: "Olga Vinogradova"
+    role: phd
+    image: img/people/Olga_Vinogradova.jpg
+    bio: PhD Student, CMU Chemical Engineering
+    email: ovinogra [at] andrew [dot] cmu [dot] edu
+
+matt:
+    display_name: "Matt Guttenberg"
+    role: phd
+    image: img/people/Matt_Guttenberg.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mguttenb [at] andrew [dot] cmu [dot] edu
+
+alec:
+    display_name: "Alec Bills"
+    role: phd
+    image: img/people/Bills_Alexander_A.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: abills [at] andrew [dot] cmu [dot] edu
+
