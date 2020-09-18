@@ -7,3 +7,5 @@ Icon*
 */*/Icon*
 .jekyll-cache/*
 *~
+.DS_Store
+*/.DS_Store
