@@ -70,3 +70,10 @@ alec:
     bio: PhD Student, CMU Mechanical Engineering
     email: abills [at] andrew [dot] cmu [dot] edu
 
+shang:
+  display_name: "Shang Zhu"
+  role: phd
+  image: img/people/Shang_Zhu.jpeg
+  bio: PhD Student, CMU Mechanical Engineering
+  webpage: "https://www.linkedin.com/in/shang-zhu-0935a4153/"
+  email: shangzhu [at] andrew [dot] cmu [dot] edu
