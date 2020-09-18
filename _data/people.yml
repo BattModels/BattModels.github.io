@@ -34,3 +34,10 @@ ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
     bio: Post-master's Researcher
+
+matt:
+    display_name: "Matt Guttenberg"
+    role: phd
+    image: img/people/Matt_Guttenberg.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mguttenb [at] andrew [dot] cmu [dot] edu
