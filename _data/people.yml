@@ -1,4 +1,3 @@
-
 venkat:
     display_name: "Venkat Viswanathan"
     webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
@@ -23,7 +22,6 @@ greg:
     email: "ghouchin [at] andrew [dot] cmu [dot] edu"
     bio: Swartz Center for Entrepreneurship Innovation Fellow, Carnegie Mellon University
 
-
 lance:
     display_name: "Lance Kavalsky"
     role: phd
@@ -44,7 +42,12 @@ ernest:
     role: staff
     bio: Post-master's Researcher
 
-
+kian:
+    display_name: "Jiankun (Kian) Pu"
+    role: phd
+    image: img/people/jiankun_pu_pic.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: jiankunp [at] andrew [dot] cmu [dot] edu
 
 olga:
     display_name: "Olga Vinogradova"
@@ -53,14 +56,12 @@ olga:
     bio: PhD Student, CMU Chemical Engineering
     email: ovinogra [at] andrew [dot] cmu [dot] edu
 
-
 matt:
     display_name: "Matt Guttenberg"
     role: phd
     image: img/people/Matt_Guttenberg.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: mguttenb [at] andrew [dot] cmu [dot] edu
-    
 
 alec:
     display_name: "Alec Bills"
