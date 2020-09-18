@@ -15,6 +15,14 @@ rachel:
     email: "rkurchin [at] cmu [dot] edu"
     bio: Manufacturing Future Initiative Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
 
+lei:
+    display_name: "Lei Zhang"
+    role: postdoc
+    image:
+    webpage: "https://www.linkedin.com/in/lei-zhang-0b8aa126/"
+    email: "sjtuzhanglei [at] gmail [dot] com"
+    bio: Ab-initio defect thermo, ab-initio electrochemistry
+
 lance:
     display_name: "Lance Kavalsky"
     role: phd
