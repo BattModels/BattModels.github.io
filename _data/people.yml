@@ -36,12 +36,22 @@ ernest:
     bio: Post-master's Researcher
 
 
+
 olga:
     display_name: "Olga Vinogradova"
     role: phd
     image: img/people/Olga_Vinogradova.jpg
     bio: PhD Student, CMU Chemical Engineering
     email: ovinogra [at] andrew [dot] cmu [dot] edu
+
+
+matt:
+    display_name: "Matt Guttenberg"
+    role: phd
+    image: img/people/Matt_Guttenberg.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mguttenb [at] andrew [dot] cmu [dot] edu
+    
 
 alec:
     display_name: "Alec Bills"
