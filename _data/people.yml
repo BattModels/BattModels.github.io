@@ -1,4 +1,9 @@
-
+kian: 
+    display_name: "Jiankun  Pu"
+    role: phd
+    image: img/people/jiankun_pu_pic.jpg
+    bio: PhD student, CMU Mechanical Engineering
+    email: "jiankunp [at] andrew [dot] cmu [dot] edu"
 venkat:
     display_name: "Venkat Viswanathan"
     webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
