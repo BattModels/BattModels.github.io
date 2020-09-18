@@ -34,3 +34,10 @@ ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
     bio: Post-master's Researcher
+
+olga:
+    display_name: "Olga Vinogradova"
+    role: phd
+    image: img/people/Olga_Vinogradova.jpg
+    bio: PhD Student, CMU Chemical Engineering
+    email: ovinogra [at] andrew [dot] cmu [dot] edu
