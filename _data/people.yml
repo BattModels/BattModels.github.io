@@ -15,6 +15,15 @@ rachel:
     email: "rkurchin [at] cmu [dot] edu"
     bio: Manufacturing Future Initiative Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
 
+greg:
+    display_name: "Gregory Houchins"
+    role: postdoc
+    image: img/people/Gregory_Houchins.png
+    webpage: "http://andrew.cmu.edu/~ghouchin"
+    email: "ghouchin [at] andrew [dot] cmu [dot] edu"
+    bio: Swartz Center for Entrepreneurship Innovation Fellow, Carnegie Mellon University
+
+
 lance:
     display_name: "Lance Kavalsky"
     role: phd
