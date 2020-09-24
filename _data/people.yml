@@ -84,3 +84,10 @@ shang:
   bio: PhD Student, CMU Mechanical Engineering
   webpage: "https://www.linkedin.com/in/shang-zhu-0935a4153/"
   email: shangzhu [at] andrew [dot] cmu [dot] edu
+
+alexius:
+    display_name: "Alex Wadell"
+    role: phd
+    image: img/people/Alexius_Wadell.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: awadell [at] andrew [dot] cmu [dot] edu
