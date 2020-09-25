@@ -29,6 +29,14 @@ greg:
     email: "ghouchin [at] andrew [dot] cmu [dot] edu"
     bio: Swartz Center for Entrepreneurship Innovation Fellow, Carnegie Mellon University
 
+victor:
+    display_name: "Victor Venturi"
+    role: phd
+    image: img/people/Victor_Venturi.png
+    webpage: "http://www.andrew.cmu.edu/user/vventuri/"
+    email: "vventuri [at] andrew [dot] cmu [dot] edu"
+    bio: PhD Candidate, Carnegie Mellon Mechanical Engineering
+
 lance:
     display_name: "Lance Kavalsky"
     role: phd
