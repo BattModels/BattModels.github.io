@@ -113,3 +113,10 @@ archie:
     image: img/people/amyao.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: amyao [at] cmu [dot] edu
+
+mphuthi:
+    display_name: "Mgcini Keith Phuthi"
+    role: phd
+    image: img/people/Keith_Phuthi.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mphuthi [at] andrew [dot] cmu [dot] edu
