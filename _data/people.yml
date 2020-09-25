@@ -120,3 +120,10 @@ mphuthi:
     image: img/people/Keith_Phuthi.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: mphuthi [at] andrew [dot] cmu [dot] edu
+
+hongyi:
+    display_name: "Hongyi Lin"
+    role: masters 
+    image: img/people/Hongyi_Lin.jpg
+    bio: Master Student, CMU Energy Science, Technology & Policy
+    email: hongyili [at] andrew [dot] cmu [dot] edu
