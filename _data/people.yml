@@ -17,6 +17,7 @@ rachel:
 lei:
     display_name: "Lei Zhang"
     role: postdoc
+    image: img/people/Lei_Zhang.jpg
     webpage: "https://www.linkedin.com/in/lei-zhang-0b8aa126/"
     email: "sjtuzhanglei [at] gmail [dot] com"
     bio: Ab-initio defect thermo, ab-initio electrochemistry
@@ -120,3 +121,11 @@ mphuthi:
     image: img/people/Keith_Phuthi.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: mphuthi [at] andrew [dot] cmu [dot] edu
+
+ssripad:
+    display_name: "Shashank Sripad"
+    role: phd
+    image: img/people/Shashank.png
+    bio: PhD Student, CMU Mechanical Engineering
+    email: ssripad [at] cmu [dot] edu
+    webpage: "http://andrew.cmu.edu/user/ssripad/"
