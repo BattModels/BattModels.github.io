@@ -91,3 +91,11 @@ alexius:
     image: img/people/Alexius_Wadell.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: awadell [at] andrew [dot] cmu [dot] edu
+
+archie:
+    display_name: "Archie Mingze Yao"
+    role: phd
+    image: img/people/amyao.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: amyao [at] cmu [dot] edu
+
