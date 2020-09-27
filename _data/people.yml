@@ -120,3 +120,10 @@ mphuthi:
     image: img/people/Keith_Phuthi.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: mphuthi [at] andrew [dot] cmu [dot] edu
+
+mbabar:
+    display_name: "Mohammad Babar"
+    role: phd
+    image: img/people/Mohammad_Babar.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mbabar [at] andrew [dot] cmu [dot] edu
