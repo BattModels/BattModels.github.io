@@ -129,3 +129,17 @@ ssripad:
     bio: PhD Student, CMU Mechanical Engineering
     email: ssripad [at] cmu [dot] edu
     webpage: "http://andrew.cmu.edu/user/ssripad/"
+    
+hongyi:
+    display_name: "Hongyi Lin"
+    role: masters 
+    image: img/people/Hongyi_Lin.jpg
+    bio: Master Student, CMU Energy Science, Technology & Policy
+    email: hongyili [at] andrew [dot] cmu [dot] edu
+
+mbabar:
+    display_name: "Mohammad Babar"
+    role: phd
+    image: img/people/Mohammad_Babar.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mbabar [at] andrew [dot] cmu [dot] edu
