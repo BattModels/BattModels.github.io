@@ -127,3 +127,10 @@ hongyi:
     image: img/people/Hongyi_Lin.jpg
     bio: Master Student, CMU Energy Science, Technology & Policy
     email: hongyili [at] andrew [dot] cmu [dot] edu
+
+mbabar:
+    display_name: "Mohammad Babar"
+    role: phd
+    image: img/people/Mohammad_Babar.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mbabar [at] andrew [dot] cmu [dot] edu
