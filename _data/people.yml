@@ -144,6 +144,14 @@ mbabar:
     bio: PhD Student, CMU Mechanical Engineering
     email: mbabar [at] andrew [dot] cmu [dot] edu
 
+hparks:
+  display_name: "Holden Parks"
+  role: phd
+  image: img/people/Holden_Parks.jpg
+  bio: PhD Candidate, CMU Mechanical Engineering
+  webpage: "https://scholar.google.com/citations?user=6aNqviYAAAAJ&hl=en"
+  email: hparks [at] andrew [dot] cmu [dot] edu
+
 dong:
     display_name: "Dong Zhang"
     role: postdoc
