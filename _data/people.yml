@@ -158,3 +158,10 @@ dong:
     image: img/people/Dong_Zhang_Image.jpg
     bio: Postdoc Research Associate, Mechanical Engineering, Carnegie Mellon University
     email: dongzhr [at] cmu [dot] edu
+
+Pinwen:
+    display_name: "Pinwen Guan"
+    role: postdoc
+    image: img/people/Pinwen_Guan.jpeg
+    email: "pinweng [at] andrew [dot] cmu [dot] edu"
+    bio: Postdoc Research Associate, Mechanical Engineering, Carnegie Mellon University
