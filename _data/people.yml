@@ -120,3 +120,12 @@ mphuthi:
     image: img/people/Keith_Phuthi.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: mphuthi [at] andrew [dot] cmu [dot] edu
+
+hparks:
+  display_name: "Holden Parks"
+  role: phd
+  image: img/people/Holden_Parks.jpeg
+  bio: PhD Candidate, CMU Mechanical Engineering
+  webpage: "https://scholar.google.com/citations?user=6aNqviYAAAAJ&hl=en"
+  email: hparks [at] andrew [dot] cmu [dot] edu
+
