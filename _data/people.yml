@@ -143,3 +143,10 @@ mbabar:
     image: img/people/Mohammad_Babar.jpg
     bio: PhD Student, CMU Mechanical Engineering
     email: mbabar [at] andrew [dot] cmu [dot] edu
+
+dong:
+    display_name: "Dong Zhang"
+    role: postdoc
+    image: img/people/Dong_Zhang_Image.jpg
+    bio: Postdoc Research Associate, Mechanical Engineering, Carnegie Mellon University
+    email: dongzhr [at] cmu [dot] edu
