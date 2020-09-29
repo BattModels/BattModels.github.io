@@ -151,3 +151,10 @@ hparks:
   bio: PhD Candidate, CMU Mechanical Engineering
   webpage: "https://scholar.google.com/citations?user=6aNqviYAAAAJ&hl=en"
   email: hparks [at] andrew [dot] cmu [dot] edu
+
+dong:
+    display_name: "Dong Zhang"
+    role: postdoc
+    image: img/people/Dong_Zhang_Image.jpg
+    bio: Postdoc Research Associate, Mechanical Engineering, Carnegie Mellon University
+    email: dongzhr [at] cmu [dot] edu
