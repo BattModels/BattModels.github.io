@@ -165,3 +165,11 @@ Pinwen:
     image: img/people/Pinwen_Guan.jpeg
     email: "pinweng [at] andrew [dot] cmu [dot] edu"
     bio: Postdoc Research Associate, Mechanical Engineering, Carnegie Mellon University
+
+varun:
+    display_name: "Varun Shankar"
+    role: phd
+    image: img/people/varun.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: varunshankar [at] cmu [dot] edu
+
