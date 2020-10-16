@@ -173,3 +173,10 @@ varun:
     bio: PhD Student, CMU Mechanical Engineering
     email: varunshankar [at] cmu [dot] edu
 
+ady:
+    display_name: "Adarsh (Ady) Dave"
+    role: phd
+    image: img/people/ady_headshot.jpg
+    bio: PhD Candidate, CMU Mechanical Engineering
+    email: ardave [at] cmu [dot] edu
+    webpage: "https://scholar.google.com/citations?user=G4sH0egAAAAJ&hl=en" 
