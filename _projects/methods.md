@@ -16,4 +16,4 @@ ASE)](https://wiki.fysik.dtu.dk/ase/)
   - Crystal structure search/prediction: [CALYPSO](http://www.calypso.cn)
   - Bayesian optimization with [Dragonfly](https://dragonfly-opt.readthedocs.io/en/master/)
   - Nearly all of the above rely on high-performance computing resources on the shared College of Engineering Cluster mananged by our group, Arjuna, as
- well as at national leadership computing facilities such as NERSC
+ well as at national leadership computing facilities such as NERSC and XSEDE
