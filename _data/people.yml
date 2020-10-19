@@ -180,3 +180,11 @@ ady:
     bio: PhD Candidate, CMU Mechanical Engineering
     email: ardave [at] cmu [dot] edu
     webpage: "https://scholar.google.com/citations?user=G4sH0egAAAAJ&hl=en" 
+
+Dilip:
+    display_name: "Dilip Krishnamurthy"
+    role: phd
+    image: img/people/dilip_headshot.jpg
+    bio: PhD Candidate, CMU Mechanical Engineering
+    email: dkrishn1 [at] andrew [dot] cmu [dot] edu
+    webpage: "http://dilipkrishnamurthy.github.io/"
