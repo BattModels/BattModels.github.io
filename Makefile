@@ -9,6 +9,10 @@ _includes/pubs.html: bib/pubs.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
+_includes/patents.html: bib/patents.bib bib/publications.tmpl
+	mkdir -p _includes
+	$(BIBBLE) $+ > $@
+
 build: _includes/pubs.html
 	jekyll build
 

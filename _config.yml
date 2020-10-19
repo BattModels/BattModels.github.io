@@ -55,6 +55,8 @@ navigation:
     link: index.html#news
   - title: Publications
     link: publications.html
+  - title: Patents
+    link: patents.html
   - title: Sponsors
     link: sponsors.html
 #  - title: Code
