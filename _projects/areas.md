@@ -9,6 +9,6 @@ no-link: false
 ---
 * Materials for Li-ion batteries: Cathodes, anodes, electrolytes, including at extreme (e.g. low-temperature) conditions and for novel device architect
 ures such as Li-metal
-* Catalysts for fuel cells and chemical production: HER, NRR, cement production...
+* Catalysts for fuel cells and electrochemical synthesis: HER, NRR, cement production...
 * Prediction and control for battery system simulation and management
 * Electric vehicle cost modeling, simulation, and charger placement
