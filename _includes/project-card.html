@@ -36,14 +36,4 @@
             <a href="{{ proj-url }}"> Read more &raquo;</a>
         {% endif %}
     </div>
-    {% if project.people %}
-        <div class="card-footer d-flex flex-row flex-wrap justify-content-center">
-            {% for uname in project.people %}
-                <div>
-                    {% assign person = site.data.people[uname]  %}
-                    {% include person-image.html person=person %}
-                </div>
-            {% endfor %}
-        </div>
-    {% endif %}
 </div>
