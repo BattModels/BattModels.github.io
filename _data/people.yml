@@ -1,4 +1,3 @@
-
 venkat:
     display_name: "Venkat Viswanathan"
     webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
@@ -15,6 +14,30 @@ rachel:
     email: "rkurchin [at] cmu [dot] edu"
     bio: Manufacturing Future Initiative Postdoctoral Fellow, Carnegie Mellon Mechanical Engineering and Materials Science and Engineering
 
+lei:
+    display_name: "Lei Zhang"
+    role: postdoc
+    image: img/people/Lei_Zhang.jpg
+    webpage: "https://www.linkedin.com/in/lei-zhang-0b8aa126/"
+    email: "sjtuzhanglei [at] gmail [dot] com"
+    bio: Ab-initio defect thermo, ab-initio electrochemistry
+
+greg:
+    display_name: "Gregory Houchins"
+    role: postdoc
+    image: img/people/Gregory_Houchins.png
+    webpage: "http://andrew.cmu.edu/~ghouchin"
+    email: "ghouchin [at] andrew [dot] cmu [dot] edu"
+    bio: Swartz Center for Entrepreneurship Innovation Fellow, Carnegie Mellon University
+
+victor:
+    display_name: "Victor Venturi"
+    role: phd
+    image: img/people/Victor_Venturi.png
+    webpage: "http://www.andrew.cmu.edu/user/vventuri/"
+    email: "vventuri [at] andrew [dot] cmu [dot] edu"
+    bio: PhD Candidate, Carnegie Mellon Mechanical Engineering
+
 lance:
     display_name: "Lance Kavalsky"
     role: phd
@@ -25,7 +48,7 @@ lance:
 
 sean:
     display_name: "Xiaoyu (Sean) Sun"
-    role: grad
+    role: masters
     image: img/people/Sean_Sun.jpg
     bio: Master's Student, CMU Computer Science
     email: seansun [at] andrew [dot] cmu [dot] edu
@@ -34,3 +57,134 @@ ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
     bio: Post-master's Researcher
+
+kian:
+    display_name: "Jiankun (Kian) Pu"
+    role: phd
+    image: img/people/jiankun_pu_pic.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: jiankunp [at] andrew [dot] cmu [dot] edu
+
+olga:
+    display_name: "Olga Vinogradova"
+    role: phd
+    image: img/people/Olga_Vinogradova.jpg
+    bio: PhD Student, CMU Chemical Engineering
+    email: ovinogra [at] andrew [dot] cmu [dot] edu
+
+matt:
+    display_name: "Matt Guttenberg"
+    role: phd
+    image: img/people/Matt_Guttenberg.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mguttenb [at] andrew [dot] cmu [dot] edu
+
+alec:
+    display_name: "Alec Bills"
+    role: phd
+    image: img/people/Bills_Alexander_A.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: abills [at] andrew [dot] cmu [dot] edu
+
+shang:
+  display_name: "Shang Zhu"
+  role: phd
+  image: img/people/Shang_Zhu.jpeg
+  bio: PhD Student, CMU Mechanical Engineering
+  webpage: "https://www.linkedin.com/in/shang-zhu-0935a4153/"
+  email: shangzhu [at] andrew [dot] cmu [dot] edu
+
+alexius:
+    display_name: "Alex Wadell"
+    role: phd
+    image: img/people/Alexius_Wadell.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: awadell [at] andrew [dot] cmu [dot] edu
+
+yumin:
+    display_name: "Yumin Zhang"
+    role: phd
+    image: img/people/Yumin_Zhang.png
+    bio: PhD Student, CMU Materials Science and Engineering
+    email: yuminz [at] andrew [dot] cmu [dot] edu
+
+archie:
+    display_name: "Archie Mingze Yao"
+    role: phd
+    image: img/people/amyao.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: amyao [at] cmu [dot] edu
+
+mphuthi:
+    display_name: "Mgcini Keith Phuthi"
+    role: phd
+    image: img/people/Keith_Phuthi.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mphuthi [at] andrew [dot] cmu [dot] edu
+
+ssripad:
+    display_name: "Shashank Sripad"
+    role: phd
+    image: img/people/Shashank.png
+    bio: PhD Student, CMU Mechanical Engineering
+    email: ssripad [at] cmu [dot] edu
+    webpage: "http://andrew.cmu.edu/user/ssripad/"
+    
+hongyi:
+    display_name: "Hongyi Lin"
+    role: masters 
+    image: img/people/Hongyi_Lin.jpg
+    bio: Master Student, CMU Energy Science, Technology & Policy
+    email: hongyili [at] andrew [dot] cmu [dot] edu
+
+mbabar:
+    display_name: "Mohammad Babar"
+    role: phd
+    image: img/people/Mohammad_Babar.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: mbabar [at] andrew [dot] cmu [dot] edu
+
+hparks:
+  display_name: "Holden Parks"
+  role: phd
+  image: img/people/Holden_Parks.jpg
+  bio: PhD Candidate, CMU Mechanical Engineering
+  webpage: "https://scholar.google.com/citations?user=6aNqviYAAAAJ&hl=en"
+  email: hparks [at] andrew [dot] cmu [dot] edu
+
+dong:
+    display_name: "Dong Zhang"
+    role: postdoc
+    image: img/people/Dong_Zhang_Image.jpg
+    bio: Postdoc Research Associate, Mechanical Engineering, Carnegie Mellon University
+    email: dongzhr [at] cmu [dot] edu
+
+Pinwen:
+    display_name: "Pinwen Guan"
+    role: postdoc
+    image: img/people/Pinwen_Guan.jpeg
+    email: "pinweng [at] andrew [dot] cmu [dot] edu"
+    bio: Postdoc Research Associate, Mechanical Engineering, Carnegie Mellon University
+
+varun:
+    display_name: "Varun Shankar"
+    role: phd
+    image: img/people/varun.jpg
+    bio: PhD Student, CMU Mechanical Engineering
+    email: varunshankar [at] cmu [dot] edu
+
+ady:
+    display_name: "Adarsh (Ady) Dave"
+    role: phd
+    image: img/people/ady_headshot.jpg
+    bio: PhD Candidate, CMU Mechanical Engineering
+    email: ardave [at] cmu [dot] edu
+    webpage: "https://scholar.google.com/citations?user=G4sH0egAAAAJ&hl=en" 
+
+Dilip:
+    display_name: "Dilip Krishnamurthy"
+    role: phd
+    image: img/people/dilip_headshot.jpg
+    bio: PhD Candidate, CMU Mechanical Engineering
+    email: dkrishn1 [at] andrew [dot] cmu [dot] edu
+    webpage: "http://dilipkrishnamurthy.github.io/"

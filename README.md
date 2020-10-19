@@ -1,48 +1,28 @@
-Research Group Web Site Template
-================================
+Viswanathan Research Group
+==========================
 
-This is a [Jekyll][]-based Web site intended for research groups. Your group should be able to get up and running with minimal fuss.
+Website built using (and grateful to) [this template](https://github.com/uwsampa/research-group-web), of which this is no longer a fork so that we can have our own issues and pull requests. See bottom of this file for licensing info, etc.
 
-<p align="center">
-<img src="screenshot.png" width="387" height="225" alt="screenshot of the template">
-</p>
-
-This project originated at the University of Washington.  You can see the machinery working live at [our site][sampa].
-
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
-
-[sampa]: http://sampa.cs.washington.edu/
-[license]: https://creativecommons.org/licenses/by-nc/4.0/
+This README is a slightly modified, compressed, and reorganized version of the original from the template.
 
 
-Features
---------
+Quick Setup
+-----------
 
-* Thanks to [Jekyll][], content is just text files. So even faculty should be able to figure it out.
-* Publications list generated from BibTeX.
-* Personnel list. Organize your professors, students, staff, and alumni.
-* Combined news stream and blog posts.
-* Easily extensible navigation bar.
-* Responsive (mobile-ready) design based on [Bootstrap][].
+1. Install the dependencies. You will need Python, bibble (`pip install bibble`), [Ruby][], and Jekyll (`gem install jekyll`). NOTE that you need Ruby 2.4 or higher and Jekyll 4.0 or higher. You can check these with `ruby -v` and `jekyll -v` respectively.
+2. Clone the repo to your local machine. MAKE A BRANCH, DO NOT COMMIT TO MASTER! (Or, fork it first and then commit to master all you want on your own fork)
+3. Type `make` to build the site and then run `make serve` to view the site locally.
+4. Make edits (see below for guidelines/gotchas for particular sections). Continue to preview locally to make sure things work as you want.
+5. Once you're happy with your changes, make a PR from your branch to master.
 
-[Bootstrap]: http://getbootstrap.com/
+[Ruby]: https://www.ruby-lang.org/en/
 
+Personnel
+---------
 
-Setup
------
+People are listed in a [YAML][] file in `_data/people.yml`. You can list the name, link, bio, and role of each person. Roles (e.g., "Faculty", "Staff", and "Students") are defined in `_config.yml`.
 
-1. Install the dependencies. You will need [Python][], [bibble][] (`pip install bibble`), and [Jekyll][] (`gem install jekyll`).
-2. [Fork][] this repository on GitHub.
-3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
-4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
-5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
-6. Type `make` to build the site and then run `make serve` to view your site.
-7. Keep adding content. See below for instructions for each of the various sections.
-8. Periodically pull from the upstream repository: `git pull upstream master`.
-
-[Python]: https://www.python.org/
-[Fork]: https://github.com/uwsampa/research-group-web/fork
-
+[YAML]: https://en.wikipedia.org/wiki/YAML
 
 Publication List
 ----------------
@@ -76,50 +56,12 @@ You can also customize the icon that is displayed on the news feed. By default i
 [yfm]: http://jekyllrb.com/docs/frontmatter/
 [fa]: http://fontawesome.io/icons/
 
-Projects
---------
 
-To create a project, just create a markdown file in the `_projects` folder. Here are the things you can put in the YAML frontmatter:
+Credit Where Credit is Due
+--------------------------
+This project originated at the University of Washington.  You can see the machinery working live at [our site][sampa].
 
-- `title:` The project title.
-- `notitle:` Set this to `true` if you don't want a title displayed on the project card. Optional.
-- `description:` The text shown in the project card. It supports markdown.
-- `people:` The people working on the project. This is a list of keys from the `_data/people.yml` file.
-- `layout: project` This sets the layout of the actual project page. It should be set to `project`.
-- `image:` The URL of an image for the project. This is shown on both the project page and the project card. Optional.
-- `last-updated:` Date in the format of `YYYY-MM-DD`. The project cards are sorted by this, most recent first.
-- `status: inactive` Set this to `inactive` if don't want the project to appear on the front page. Just ignore it otherwise.
-- `link:` Set this to an external URL if this project has a page somewhere else on the web. If you don't have a `link:`, then the content of this markdown file (below the YAML frontmatter) will be this project's page.
-- `no-link: true` Set this if you just don't want a project page for your project.
+This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
 
-Personnel
----------
-
-People are listed in a [YAML][] file in `_data/people.yml`. You can list the name, link, bio, and role of each person. Roles (e.g., "Faculty", "Staff", and "Students") are defined in `_config.yml`.
-
-[YAML]: https://en.wikipedia.org/wiki/YAML
-
-
-Building
---------
-
-The requirements for building the site are:
-
-* [Jekyll][]: run `gem install jekyll`
-* [bibble][]: available on `pip`
-* ssh and rsync, only if you want to deploy directly.
-
-`make` compiles the bibliography and the website content to the `_site`
-directory. To preview the site, run `jekyll serve`` and head to
-http://0.0.0.0:5000.
-
-
-Deploying to Your Sever
------------------------
-
-To set up deployments, edit the Makefile and look for the lines where `HOST` and `DIR` are defined. Change these to the host where your HTML files should be copied to.
-
-To upload a new version of the site via rsync over ssh, type `make deploy`. A web hook does this automatically when you push to GitHub. Be aware that the Makefile is configured to have rsync delete stray files from the destination directory.
-
-[Jekyll]: http://jekyllrb.com/
-[bibble]: https://github.com/sampsyo/bibble/
+[sampa]: http://sampa.cs.washington.edu/
+[license]: https://creativecommons.org/licenses/by-nc/4.0/
