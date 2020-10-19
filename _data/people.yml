@@ -1,3 +1,5 @@
+# PI
+
 venkat:
     display_name: "Venkat Viswanathan"
     webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
@@ -5,6 +7,8 @@ venkat:
     image: img/people/Venkat_Viswanathan.png
     bio: Associate Professor of Mechanical Engineering
     email: "venkvis [at] cmu [dot] edu"
+
+# Postdocs, ordered by seniority at present
 
 Pinwen:
     display_name: "Pinwen Guan"
@@ -44,11 +48,14 @@ greg:
     email: "ghouchin [at] andrew [dot] cmu [dot] edu"
     bio: Swartz Center for Entrepreneurship Innovation Fellow, Carnegie Mellon University
 
+# misc
 
 ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
     bio: Post-master's Researcher
+
+# masters
 
 hongyi:
     display_name: "Hongyi Lin"
@@ -64,8 +71,7 @@ sean:
     bio: Computer Science
     email: seansun [at] andrew [dot] cmu [dot] edu
 
-
-
+# phd students, currently alphabetical
 
 ady:
     display_name: "Adarsh (Ady) Dave"
@@ -186,9 +192,9 @@ yumin:
     email: yuminz [at] andrew [dot] cmu [dot] edu
 
 
+# COMMENCE ALUMNI SECTION
 
-
-
+# first postdocs, chronological
 
 abhishek:
     display_name: "Abhishek Khetan"
@@ -205,6 +211,8 @@ zijian:
     role: alumni-postdoc
     bio: Faculty at Zhejiang University
 
+# then phd, I think these are chronological
+
 oleg:
     display_name: "Oleg Sapunkov"
     role: alumni-phd
@@ -220,10 +228,27 @@ zeeshan:
     role: alumni-phd
     bio: Postdoctoral Research Scholar at University of Chicago
 
+# masters, these ones are alphabetical currently
+
+abhinav:
+   display_name: "Abhinav Misalkar"
+   role: alumni-masters
+   bio: Cell Engineer at Tesla
+
 andrew:
     display_name: "Andrew Sams"
     role: alumni-masters
     bio: Experienced Consultant, West Monroe Partners
+
+colin:
+    display_name: "Colin Grossman-Cross"
+    role: alumni-masters
+    bio: Integration and Test Engineer, Astrobiotic
+
+lingyan:
+    display_name: "Lingyan Zhao"
+    role: alumni-masters
+    bio: PhD student at University of Pittsburgh
 
 mikael:
     display_name: "Mikael Matossian"
@@ -240,17 +265,30 @@ siddharth:
     role: alumni-masters
     bio: PhD Student at Purdue University
 
+yingf:
+    display_name: "Ying Fang"
+    role: alumni-masters
+    bio: 
+
+yingy:
+    display_name: "Ying Yuan"
+    role: alumni-masters
+    bio: 
+
 yoolhee:
     display_name: "Yoolhee Kim"
     role: alumni-masters
     bio: Data Scientist at Citrine Informatics
+
+# undergrads
+
+andrew:
+    display_name: "Andrew Lee"
+    role: alumni-ugrad
+    bio: PhD student at Northwestern University
 
 siying:
     display_name: "Siying Li"
     role: alumni-ugrad
     bio: PhD student at UC Berkeley
 
-andrew:
-    display_name: "Andrew Lee"
-    role: alumni-ugrad
-    bio: PhD student at Northwestern University
