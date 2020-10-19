@@ -225,6 +225,11 @@ andrew:
     role: alumni-masters
     bio: Experienced Consultant, West Monroe Partners
 
+mikael:
+    display_name: "Mikael Matossian"
+    role: alumni-masters
+    bio: Energy Sector Senior Associate at Tetra Tech
+
 vaidish:
     display_name: "Vaidish Sumaria"
     role: alumni-masters
@@ -239,3 +244,13 @@ yoolhee:
     display_name: "Yoolhee Kim"
     role: alumni-masters
     bio: Data Scientist at Citrine Informatics
+
+siying:
+    display_name: "Siying Li"
+    role: alumni-ugrad
+    bio: PhD student at UC Berkeley
+
+andrew:
+    display_name: "Andrew Lee"
+    role: alumni-ugrad
+    bio: PhD student at Northwestern University
