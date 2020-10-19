@@ -101,6 +101,14 @@ archie:
     image: img/people/amyao.jpg
     bio: Mechanical Engineering
     email: amyao [at] cmu [dot] edu
+    
+Dilip:
+    display_name: "Dilip Krishnamurthy"
+    role: phd
+    image: img/people/dilip_headshot.jpg
+    bio: PhD Candidate, CMU Mechanical Engineering
+    email: dkrishn1 [at] andrew [dot] cmu [dot] edu
+    webpage: "http://dilipkrishnamurthy.github.io/"
 
 hparks:
   display_name: "Holden Parks"
@@ -291,4 +299,3 @@ siying:
     display_name: "Siying Li"
     role: alumni-ugrad
     bio: PhD student at UC Berkeley
-
