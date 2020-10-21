@@ -184,6 +184,13 @@ varun:
     bio: Mechanical Engineering
     email: varunshankar [at] cmu [dot] edu
 
+venkatesh:
+    display_name: "Venkatesh Krishnamurthy"
+    role: phd
+    image: img/people/Venkatesh.jpg
+    bio: Materials Science and Engineering
+    email: venkatek [at] andrew [dot] cmu [dot] edu
+
 victor:
     display_name: "Victor Venturi"
     role: phd
