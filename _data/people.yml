@@ -54,6 +54,7 @@ ernest:
     display_name: "Qingyang (Ernest) Zhang"
     role: staff
     bio: Post-master's Researcher
+    image: img/people/Ernest_Zhang.jpeg
 
 # masters
 
@@ -98,7 +99,7 @@ alexius:
 archie:
     display_name: "Archie Mingze Yao"
     role: phd
-    image: img/people/amyao.jpg
+    image: img/people/amyao.png
     bio: Mechanical Engineering
     email: amyao [at] cmu [dot] edu
     
