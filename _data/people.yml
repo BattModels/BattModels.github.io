@@ -133,7 +133,12 @@ lance:
     bio: Mechanical Engineering
     webpage: "https://scholar.google.com/citations?user=kPsUy9IAAAAJ&hl=en"
     email: lkavalsk [at] andrew [dot] cmu [dot] edu
-
+lydia:
+    display_name: "Lydia Tsiverioti"
+    role: phd
+    image:img/people/Lydia_Tsiverioti.jpeg 
+    bio: Mechanical Engineering
+    email: ltsiver [at] andrew [dot] cmu [dot] edu
 matt:
     display_name: "Matt Guttenberg"
     role: phd
