@@ -136,9 +136,9 @@ lance:
 lydia:
     display_name: "Lydia Tsiverioti"
     role: phd
-    image:img/people/Lydia_Tsiverioti.jpeg 
+    image: img/people/Lydia_Tsiverioti.jpeg 
     bio: Mechanical Engineering
-    email: ltsiver [at] andrew [dot] cmu [dot] edu
+    email: ltsiveri [at] andrew [dot] cmu [dot] edu
 matt:
     display_name: "Matt Guttenberg"
     role: phd
