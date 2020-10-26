@@ -56,6 +56,14 @@ ernest:
     bio: Post-master's Researcher
     image: img/people/Ernest_Zhang.jpeg
 
+vp:
+    display_name: "Vedant Puri"
+    role: Research Assistant
+    image: img/people/vp.jpg
+    webpage: "https://www.linkedin.com/in/vpuri3/"
+    email: "vedantpu [at] andrew [dot] cmu [dot] com"
+    bio: Computational Fluid Dynamics
+
 # masters
 
 hongyi:
