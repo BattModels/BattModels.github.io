@@ -58,11 +58,11 @@ ernest:
 
 vp:
     display_name: "Vedant Puri"
-    role: Research Assistant
+    role: staff
     image: img/people/vp.jpg
     webpage: "https://www.linkedin.com/in/vpuri3/"
     email: "vedantpu [at] andrew [dot] cmu [dot] com"
-    bio: Computational Fluid Dynamics
+    bio: Research Assistant
 
 # masters
 
