@@ -3,10 +3,9 @@ title: Research Thrusts
 
 description: "We work toward improving performance, cost, and safety of virtually every kind of electrochemical system at every scale, from the atomic to the national. Some of the goals and vision that drive our research are listed here."
 
-
-layout: project
+link: https://www.cmu.edu/me/venkatgroup/projects/thrusts.html
+layout: default
 last-updated: 2020-09-15
-no-link: false
 ---
 
 - Batteries that can achieve performance metrics (power and energy density, safety, cyclability, etc.) appropriate to long-range driving, trucking, and eventually flight 

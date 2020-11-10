@@ -3,9 +3,9 @@ title: Research Methods
 
 description: "Our group is primarily computational/theoretical, with a small but growing experimental presence in collaboration with Prof. Jay Whitacre, focused on integrating machine learning approaches with automated experimentation. We have a strong commitment to using and contributing to open-source software development efforts. We're always learning more, but the current methods/tools most commonly used in the group are summarized here."
 
-layout: project
+link: https://www.cmu.edu/me/venkatgroup/projects/methods.html
+layout: default
 last-updated: 2020-09-15
-no-link: false
 ---
 Our group is primarily computational/theoretical, with a small but growing experimental presence in collaboration with Prof. Jay Whitacre, focused on integrating machine learning approaches with automated experimentation. We have a strong commitment to using and contributing to open-source software development efforts. We're always learning more, but the current methods/tools most commonly used in the group are summarized here.
 

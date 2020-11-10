@@ -3,9 +3,9 @@ title: Research Areas
 
 description: "Our group's research areas span a wide and always-evolving range, but all build on core expertise in materials science, electrochemistry, and computational modeling. Some representative research areas are listed here."
 
-layout: project
+link: https://cmu.edu/me/venkatgroup/projects/areas.html
+layout: default
 last-updated: 2020-09-15
-no-link: false
 ---
 * Materials for Li-ion batteries: Cathodes, anodes, electrolytes, including at extreme (e.g. low-temperature) conditions and for novel device architect
 ures such as Li-metal
