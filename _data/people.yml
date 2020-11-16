@@ -56,6 +56,12 @@ ernest:
     bio: Post-master's Researcher
     image: img/people/Ernest_Zhang.jpeg
 
+paul:
+   display_name: "Paul Shen"
+   role: staff
+   bio: Post-master's Researcher
+   image: img/people/Paul_Shen.jpg
+
 vp:
     display_name: "Vedant Puri"
     role: staff
