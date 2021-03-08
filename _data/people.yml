@@ -48,13 +48,15 @@ greg:
     email: "ghouchin [at] andrew [dot] cmu [dot] edu"
     bio: Swartz Center for Entrepreneurship Innovation Fellow, Carnegie Mellon University
 
-# misc
+emil:
+    display_name: "Emil Annevelink"
+    role: postdoc
+    image: img/people/Annevelink.png
+    webpage: "https://scholar.google.com/citations?user=1PBVqewAAAAJ&hl=en"
+    email: "eannevel [at] andrew [dot] cmu [dot] edu"
+    bio: Postdocroal Research Associate, Mechanical Engineering
 
-ernest:
-    display_name: "Qingyang (Ernest) Zhang"
-    role: staff
-    bio: Post-master's Researcher
-    image: img/people/Ernest_Zhang.jpeg
+# misc
 
 paul:
    display_name: "Paul Shen"
