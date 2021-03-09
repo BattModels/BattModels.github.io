@@ -112,6 +112,13 @@ alexius:
     bio: Mechanical Engineering
     email: awadell [at] andrew [dot] cmu [dot] edu
 
+anirudh:
+    display_name: "Anirudh Mohan"
+    role: phd
+    image: /img/people/Anirudh.png
+    bio: Engineering and Public Policy
+    email: aniruddh@cmu.edu
+
 archie:
     display_name: "Archie Mingze Yao"
     role: phd
