@@ -56,6 +56,11 @@ You can also customize the icon that is displayed on the news feed. By default i
 [yfm]: http://jekyllrb.com/docs/frontmatter/
 [fa]: http://fontawesome.io/icons/
 
+Miscellaneous Troubleshooting Notes
+-----------------------------------
+
+* If you add/remove personnel and one of the entries gets cut off, tweak the numbers in the `.person` section of `css/group.css` and eventually you'll figure out a combination that works
+
 
 Credit Where Credit is Due
 --------------------------
