@@ -9,11 +9,13 @@ This README is a slightly modified, compressed, and reorganized version of the o
 Quick Setup
 -----------
 
+General remark: If you're not comfortable with using git on the command line, [here](https://try.github.io) are some resources. But for the purposes of making small changes to the website, you can also use the [GitHub Desktop](https://desktop.github.com) client.
+
 1. Install the dependencies. You will need Python, bibble (`pip install bibble`), [Ruby][], and Jekyll (`gem install jekyll`). NOTE that you need Ruby 2.4 or higher and Jekyll 4.0 or higher. You can check these with `ruby -v` and `jekyll -v` respectively.
-2. Clone the repo to your local machine. MAKE A BRANCH, DO NOT COMMIT TO MASTER! (Or, fork it first and then commit to master all you want on your own fork)
+2. [Clone the repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to your local machine. MAKE A BRANCH, DO NOT COMMIT TO MASTER! (Or, fork it first and then commit to master all you want on your own fork)
 3. Type `make` to build the site and then run `make serve` to view the site locally.
-4. Make edits (see below for guidelines/gotchas for particular sections). Continue to preview locally to make sure things work as you want.
-5. Once you're happy with your changes, make a PR from your branch to master.
+4. Make edits (see below for guidelines/gotchas for particular sections). Continue to preview locally to make sure things work as you want. **NB:** If you are updating publications, you'll need to remove `_includes/pubs.html` to trigger the `make` command to regenerate it.
+5. Once you're happy with your changes, commit, push, and make a PR from your branch to master.
 
 [Ruby]: https://www.ruby-lang.org/en/
 
@@ -29,6 +31,9 @@ Publication List
 
 The list of publications is in `bib/pubs.bib`. Typing `make` will generate `pubs.html`, which contains a pretty, sorted HTML-formatted list of papers. The public page, `publications.html`, also has a link to download the original BibTeX.
 
+**WHENEVER YOU HAVE A PAPER PUBLISHED, PLEASE:**
+1. Pat yourself on the back and have a drink/treat.
+2. Submit a PR to add your publication to the website! (See "Quick Setup" section above for how to do this)
 
 News Items and Blog Posts
 -------------------------
@@ -64,7 +69,7 @@ Miscellaneous Troubleshooting Notes
 
 Credit Where Credit is Due
 --------------------------
-This project originated at the University of Washington.  You can see the machinery working live at [our site][sampa].
+This project originated at the University of Washington. You can see the machinery working live at [their site][sampa].
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License][license].
 
