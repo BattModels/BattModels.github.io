@@ -14,8 +14,9 @@ General remark: If you're not comfortable with using git on the command line, [h
 1. Install the dependencies. You will need Python, bibble (`pip install bibble`), [Ruby][], and Jekyll (`gem install jekyll`). NOTE that you need Ruby 2.4 or higher and Jekyll 4.0 or higher. You can check these with `ruby -v` and `jekyll -v` respectively.
 2. [Clone the repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to your local machine. MAKE A BRANCH, DO NOT COMMIT TO MASTER! (Or, fork it first and then commit to master all you want on your own fork)
 3. Type `make` to build the site and then run `make serve` to view the site locally.
-4. Make edits (see below for guidelines/gotchas for particular sections). Continue to preview locally to make sure things work as you want. **NB:** If you are updating publications, you'll need to remove `_includes/pubs.html` to trigger the `make` command to regenerate it.
-5. Once you're happy with your changes, commit, push, and make a PR from your branch to master.
+4. Make edits (see below for guidelines/gotchas for particular sections). Continue to preview locally to make sure things work as you want.
+5. Check that your changes don't break anything by running `make test`
+6. Once you're happy with your changes, commit, push, and make a PR from your branch to master.
 
 [Ruby]: https://www.ruby-lang.org/en/
 
