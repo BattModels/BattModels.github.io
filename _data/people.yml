@@ -2,7 +2,7 @@
 
 venkat:
     display_name: "Venkat Viswanathan"
-    webpage: "http://www.andrew.cmu.edu/user/venkatv/index.html#"
+    webpage: "https://www.andrew.cmu.edu/user/venkatv/index.html#"
     role: pi
     image: img/people/Venkat_Viswanathan.png
     bio: Associate Professor of Mechanical Engineering
@@ -21,7 +21,7 @@ rachel:
     display_name: "Rachel Kurchin"
     role: postdoc
     image: img/people/Rachel_Kurchin.jpg
-    webpage: "http://rkurchin.github.io"
+    webpage: "https://rkurchin.github.io"
     email: "rkurchin [at] cmu [dot] edu"
     bio: Manufacturing Future Initiative Postdoctoral Fellow, Mechanical Engineering and Materials Science and Engineering
 
@@ -44,7 +44,7 @@ greg:
     display_name: "Gregory Houchins"
     role: postdoc
     image: img/people/Gregory_Houchins.png
-    webpage: "http://andrew.cmu.edu/~ghouchin"
+    webpage: "https://andrew.cmu.edu/~ghouchin"
     email: "ghouchin [at] andrew [dot] cmu [dot] edu"
     bio: Swartz Center for Entrepreneurship Innovation Fellow, Carnegie Mellon University
 
@@ -76,7 +76,7 @@ vp:
 
 hongyi:
     display_name: "Hongyi Lin"
-    role: masters 
+    role: masters
     image: img/people/Hongyi_Lin.jpg
     bio: Energy Science, Technology & Policy
     email: hongyili [at] andrew [dot] cmu [dot] edu
@@ -96,7 +96,7 @@ ady:
     image: img/people/ady_headshot.jpg
     bio: Mechanical Engineering
     email: ardave [at] cmu [dot] edu
-    webpage: "https://scholar.google.com/citations?user=G4sH0egAAAAJ&hl=en" 
+    webpage: "https://scholar.google.com/citations?user=G4sH0egAAAAJ&hl=en"
 
 alec:
     display_name: "Alec Bills"
@@ -125,14 +125,14 @@ archie:
     image: img/people/amyao.png
     bio: Mechanical Engineering
     email: amyao [at] cmu [dot] edu
-    
+
 Dilip:
     display_name: "Dilip Krishnamurthy"
     role: phd
     image: img/people/dilip_headshot.jpg
     bio: Mechanical Engineering
     email: dkrishn1 [at] andrew [dot] cmu [dot] edu
-    webpage: "http://dilipkrishnamurthy.github.io/"
+    webpage: "https://dilipkrishnamurthy.github.io/"
 
 hparks:
   display_name: "Holden Parks"
@@ -159,7 +159,7 @@ lance:
 lydia:
     display_name: "Lydia Tsiverioti"
     role: phd
-    image: img/people/Lydia_Tsiverioti.jpeg 
+    image: img/people/Lydia_Tsiverioti.jpeg
     bio: Mechanical Engineering
     email: ltsiveri [at] andrew [dot] cmu [dot] edu
 matt:
@@ -204,7 +204,7 @@ ssripad:
     image: img/people/Shashank.png
     bio: Mechanical Engineering
     email: ssripad [at] cmu [dot] edu
-    webpage: "http://andrew.cmu.edu/user/ssripad/"
+    webpage: "https://andrew.cmu.edu/user/ssripad/"
 
 varun:
     display_name: "Varun Shankar"
@@ -224,7 +224,7 @@ victor:
     display_name: "Victor Venturi"
     role: phd
     image: img/people/Victor_Venturi.png
-    webpage: "http://www.andrew.cmu.edu/user/vventuri/"
+    webpage: "https://www.andrew.cmu.edu/user/vventuri/"
     email: "vventuri [at] andrew [dot] cmu [dot] edu"
     bio: Mechanical Engineering
 

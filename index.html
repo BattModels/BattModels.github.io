@@ -23,21 +23,23 @@ role-tables:
   <p>
     Vision: Invent and Optimize Materials, Processes and Devices to Accelerate the Transition to Sustainable Transportation, Aviation, Chemicals and Fuels.
   </p>
-  
+
   <img src="img/group-photo.JPG" alt="Group Photo" class="center">
 
 </div>
 
-<section>
-    <h2>Research</h2>
-    <div class="card-columns">
-        {% for p in site.projects %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
-        {% endfor %}
-    </div>
-</section>
+<div id="research">
+    <section>
+        <h2>Research</h2>
+        <div class="card-columns">
+            {% for p in site.projects %}
+                {% if p.status != "inactive" %}
+                    {% include project-card.html project=p %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+</div>
 
 <div id="people">
     <h2>People</h2>
@@ -59,7 +61,7 @@ role-tables:
   <h2>Community</h2>
   <p>Our group is involved in several efforts to spur community-building and research dissemination efforts.</p>
 
-  <p>Prof. Viswanathan runs the Battery Modeling Webinar Series (BMWS). Find more information <a href="http://www.andrew.cmu.edu/user/venkatv/bmws.html">here</a>.</p>
+  <p>Prof. Viswanathan runs the Battery Modeling Webinar Series (BMWS). Find more information <a href="https://www.andrew.cmu.edu/user/venkatv/bmws.html">here</a>.</p>
 
   <p>Dilip has coordianted a Scientific Machine Learning (SciML) course, consisting of talks along with interactive code demonstrations. For more details and schedule, visit <a href="https://www.cmu.edu/aced/sciML.html">this page</a>.</p>
 </section>
@@ -76,7 +78,7 @@ role-tables:
     {% if numposts >= 1 %}
         <p>
             <span class="fa fa-fw fa-history"></span>
-            <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
+            <a href="{{ site.baseurl }}/blog.html">Older posts&hellip;</a>
         </p>
     {% endif %}
 </section>
