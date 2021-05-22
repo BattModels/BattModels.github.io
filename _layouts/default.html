@@ -11,6 +11,9 @@
         <link rel="stylesheet"
               href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="{{ site.baseurl }}/css/group.css">
+        {% if site.google_analytics and jekyll.environment == 'production' %}
+        {% include analytics.html %}
+        {% endif %}
     </head>
     <body>
         <div class="container">
@@ -65,6 +68,9 @@
             <div class="footer">
                 <p>
 		  Our group is primarily based in the <a href="https://www.cmu.edu/">Carnegie Mellon University</a> <a href="https://www.meche.engineering.cmu.edu/">Mechanical Engineering Department</a>, with additional affiliations in <a href="https://www.cmu.edu/engineering/materials/">Materials Science and Engineering</a>, <a href="https://www.cmu.edu/physics/">Physics</a>, and <a href="https://www.cheme.engineering.cmu.edu">Chemical Engineering</a>.
+                </p>
+                <p>
+                    <a href="https://www.cmu.edu/legal/">Legal Info</a>
                 </p>
             </div>
 
