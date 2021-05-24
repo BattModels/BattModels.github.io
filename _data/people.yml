@@ -173,7 +173,7 @@ mphuthi:
     display_name: "Mgcini Keith Phuthi"
     role: phd
     image: img/people/Keith_Phuthi.jpg
-    webpage: files/Phuthi_CV.pdf
+    webpage: https://www.andrew.cmu.edu/user/mphuthi/
     bio: Mechanical Engineering
     email: mphuthi [at] andrew [dot] cmu [dot] edu
 
