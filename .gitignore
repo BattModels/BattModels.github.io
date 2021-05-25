@@ -9,6 +9,7 @@ Icon*
 *~
 *.jekyll-metadata
 Gemfile.lock
+pip.install
 
 # Make Targets
 _site/

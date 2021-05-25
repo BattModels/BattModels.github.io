@@ -11,10 +11,18 @@ build: _site/
 
 BIBBLE = bibble
 
+# Delete targets that fail to build
+.DELETE_ON_ERROR:
+
 # Install Gemfiles
+TOOLS := Gemfile.lock pip.install
 Gemfile.lock: Gemfile
 	bundle install
 	touch $@
+
+# Install Python dependencies
+pip.install: requirements.txt
+	python -m pip install --user -r requirements.txt 2>&1 | tee $@
 
 # Source Files
 # This builds a list of files that make up the website
@@ -35,14 +43,14 @@ _includes/%.html: bib/%.bib bib/publications.tmpl
 
 # Build target for previewing on AWPS
 PREVIEW_DIR ?= /collections/venkatgroup
-_site/ : Gemfile.lock $(BIB_FILES) $(SRC)
+_site/ : $(BIB_FILES) $(SRC) $(TOOLS)
 	rm -rf $@
 	bundle exec jekyll build -d $(join $@, $(PREVIEW_DIR)) -b $(PREVIEW_DIR)
 	touch $@
 
 # Build target for publishing to AWPS
 PUBLISH_DIR ?= /me/venkatgroup
-_site-publish/ : Gemfile.lock $(BIB_FILES) $(SRC)
+_site-publish/ : $(BIB_FILES) $(SRC) $(TOOLS)
 	rm -rf $@
 	JEKYLL_ENV=production \
 	bundle exec jekyll build -d $(join $@, $(PUBLISH_DIR)) -b $(PUBLISH_DIR)
@@ -84,7 +92,7 @@ deploy-github:
 	rm -rf github-publish github-publish.zip
 
 # Run test on the website using htmlproofer
-test: Gemfile.lock _site/ _site-publish/
+test: _site/ _site-publish/ $(TOOLS)
 	@echo "Running pre-commit"
 	pre-commit run -a
 
