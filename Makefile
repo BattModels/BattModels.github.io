@@ -85,6 +85,9 @@ deploy-github:
 
 # Run test on the website using htmlproofer
 test: Gemfile.lock _site/ _site-publish/
+	@echo "Running pre-commit"
+	pre-commit run -a
+
 	@echo "Checking preview version"
 	bundle exec htmlproofer \
 	--disable-external \
