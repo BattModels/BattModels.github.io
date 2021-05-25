@@ -17,3 +17,11 @@ repos:
     rev: 0.3.0
     hooks:
       - id: check-github-workflows
+  - repo: local
+    hooks:
+      - id: images-in-img
+        name: Check for images outside of img/
+        entry: Images go in /img
+        language: fail
+        exclude: ^img/
+        types: ['image']
