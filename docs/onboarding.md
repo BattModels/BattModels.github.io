@@ -1,0 +1,50 @@
+# On-Boarding
+
+Welcome to the team! As a quick order of business, let's get you add to the website!
+
+1) Install [git], create a [GitHub] account and request to join [BattModels]
+2) Clone the website: `git clone https://github.com/BattModels/group-website.git`
+3) Open `_data/people.yml` in the newly created `group-website` folder
+4) Add an entry to the end of the appropriate section:
+    - ie. if you're a master's student add your entry under `# masters`
+    - Don't worry about not having a website or bio at the moment, you can always
+    add that later
+    - Refer to [Entry Format](#entry-format) for the desired format
+5) Commit and push your changes:
+    - Create a new branch: `git checkout -b add_john_doe`
+    - Add `_data/people.yml` to the staging area: `git add _data/people.yml`
+    - Commit your staged changes: `git commit -m "Adding John Doe's Info"`
+    - Push your changes to the website: `git push -u origin add_john_doe`
+6) Open a [pull request on Github][pr]
+    - If all checks pass, you're good to merge
+    - Otherwise, try to fix the issues or ask for help
+7) Congrats on making your first pull request in the group!
+
+> Remember: All these's references to John Doe are for illustration. Please use
+> a more descriptive branch name. Like `add_your_name`
+
+### Entry Format
+
+```yaml
+your_andrew_id:
+    display_name: "John Doe"
+    role: staff
+    image: img/people/john_doe.png
+    webpage: "www.john_doe_awesome_site.com"
+    email: "jdoe [at] andrew [dot] cmu [dot] com"
+    bio: Do you know who I am?
+```
+
+We define several roles (Full List is in `_config.yml`), but you probably want
+one of the following:
+
+- `phd`
+- `masters`
+- `ugrad`
+- `postdoc`
+- `staff`
+
+[git]: https://git-scm.com/
+[GitHub]: https://github.com
+[BattModels]: https://github.com/BattModels
+[pr]: https://github.com/BattModels/group-website/pulls
