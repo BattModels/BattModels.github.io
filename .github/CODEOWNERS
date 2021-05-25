@@ -1,0 +1,11 @@
+# Admin owns all non-content files
+!_posts/ @awadell1
+!_projects/ @awadell1
+!_data/people.yml @awadell1
+!img @awadell1
+
+# Admin owns documentation files
+docs/ @awadell1
+
+# Prefer Markdown usage in posts and projects
+*.html @awadell1
