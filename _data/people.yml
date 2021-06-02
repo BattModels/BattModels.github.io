@@ -56,6 +56,14 @@ emil:
     email: "eannevel [at] andrew [dot] cmu [dot] edu"
     bio: Postdoctoral Research Associate, Mechanical Engineering
 
+valentin:
+    display_name: "Valentin Sulzer"
+    role: postdoc
+    bio: Postdoctoral Research Associate, Mechanical Engineering
+    email: "vsulzer [at] andrew [dot] cmu [dot] edu"
+    webpage: "https://sites.google.com/view/valentinsulzer"
+    image: img/people/Valentin_Sulzer.jpg
+
 # misc
 
 paul:
