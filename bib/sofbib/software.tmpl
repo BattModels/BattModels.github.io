@@ -6,7 +6,7 @@
     <tr>
         {%- if 'img' in entry.fields%}
         <td class = "softwareimage">
-            <a href={{url|escape}}><img src="{{baseurl|escape}}{{entry.fields['img']|escape}}"  height=170></a>
+            <a href={{url|escape}}><img src="{{baseurl|escape}}{{entry.fields['img']|escape}}" alt={{entry|title}}  height=170></a>
         </td>
         {%- endif %}
         <td class="software">
