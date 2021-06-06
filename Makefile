@@ -37,20 +37,25 @@ SRC += _config.yml
 # Generate HTML files for publications
 .DELETE_ON_ERROR: _includes/%.html
 BIB_FILES := _includes/pubs.html _includes/patents.html
-_includes/%.html: bib/%.bib bib/publications.tmpl
+_includes/%.html: bib/pubbib/%.bib bib/pubbib/publications.tmpl
+	mkdir -p _includes
+	$(BIBBLE) $+ > $@
+
+SOF_BIB_FILES := _includes/software.html
+_includes/%.html: bib/sofbib/%.bib bib/sofbib/software.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
 # Build target for previewing on AWPS
 PREVIEW_DIR ?= /collections/venkatgroup
-_site/ : $(BIB_FILES) $(SRC) $(TOOLS)
+_site/ : $(SOF_BIB_FILES) $(BIB_FILES) $(SRC) $(TOOLS)
 	rm -rf $@
 	bundle exec jekyll build -d $(join $@, $(PREVIEW_DIR)) -b $(PREVIEW_DIR)
 	touch $@
 
 # Build target for publishing to AWPS
 PUBLISH_DIR ?= /me/venkatgroup
-_site-publish/ : $(BIB_FILES) $(SRC) $(TOOLS)
+_site-publish/ : $(BIB_FILES) $(SRC) $(TOOLS) $(SOF_BIB_FILES)
 	rm -rf $@
 	JEKYLL_ENV=production \
 	bundle exec jekyll build -d $(join $@, $(PUBLISH_DIR)) -b $(PUBLISH_DIR)
