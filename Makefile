@@ -93,8 +93,8 @@ deploy-github:
 
 # Run test on the website using htmlproofer
 test: _site/ _site-publish/ $(TOOLS)
-#	@echo "Running pre-commit"
-#	pre-commit run -a
+	@echo "Running pre-commit"
+	pre-commit run -a
 
 	@echo "Checking preview version"
 	bundle exec htmlproofer \

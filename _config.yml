@@ -57,9 +57,9 @@ navigation:
     link: /publications.html
   - title: Patents
     link: /patents.html
-  - title: Sponsors
-    link: /sponsors.html
   - title: Software
     link: /software.html
+  - title: Sponsors
+    link: /sponsors.html
 #  - title: Code
 #    link: /code.html
