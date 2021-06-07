@@ -37,7 +37,7 @@ SRC += _config.yml
 # Generate HTML files for publications
 .DELETE_ON_ERROR: _includes/%.html
 BIB_FILES := _includes/pubs.html _includes/patents.html
-_includes/%.html: bib/pubbib/%.bib bib/pubbib/publications.tmpl
+_includes/%.html: bib/%.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
