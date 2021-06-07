@@ -1,0 +1,8 @@
+BatteryCost:
+    title: "BatteryCost.jl"
+    link: "https://github.com/BattModels/BatteryCost"
+    description: "A bottom up cost model used for modeling manufacturing and materials cost in the julia programming language. This model takes cell design, material prices, demand, labor prices, and capital investment as inputs and caluclates materials, manufacturing, and overhead costs (as well as total cost)"
+    image: /img/software/BatteryPyramid.png
+    year: 2020
+    authors: "Abhinav Misalkar, Alec Bills, Shashank Sripad, Venkat Viswanathan"
+    
