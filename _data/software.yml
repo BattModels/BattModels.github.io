@@ -1,0 +1,34 @@
+BatteryCost:
+  title: "BatteryCost.jl"
+  link: "https://github.com/BattModels/BatteryCost"
+  description: "A bottom up cost model used for modeling manufacturing and materials cost in the julia programming language. This model takes cell design, material prices, demand, labor prices, and capital investment as inputs and caluclates materials, manufacturing, and overhead costs (as well as total cost)"
+  image: /img/software/BatteryPyramid.png
+  year: 2020
+  authors: "Abhinav Misalkar, Alec Bills, Shashank Sripad, Venkat Viswanathan"
+
+
+AtomicGraphNets:
+  title: "AtomicGraphNets.jl"
+  link: "https://github.com/Chemellia/AtomicGraphNets.jl"
+  description: "AtomicGraphNets.jl implements graph-based models for machine learning on atomic systems, such as Crystal Graph Convolutional Neural Nets, in Julia. It makes use of the Flux ecosystem for model building and the JuliaGraphs ecosystem for graph representation and visualization, as well as adapting some features from GeometricFlux."
+  year: 2021
+  image: /img/software/chemellia.png
+  authors: "Rachel Kurchin, Anant Thazhemadam, Chris Rackauckas"
+
+
+ChemistryFeaturization:
+  title: "ChemistryFeaturization.jl"
+  link: "https://github.com/Chemellia/ChemistryFeaturization.jl"
+  description: "Flexible, modular, invertible featurization for Chemellia models including AtomicGraphnets.jl and WeaveModel.jl."
+  year: 2021
+  image: /img/software/chemellia.png
+  authors: "Rachel Kurchin, Anant Thazhemadam, Sean Sun"
+
+
+
+MHC_DOS:
+ title: "MHC_DOS"
+ link: "https://github.com/aced-differentiate/MHC_DOS"
+ description: "Herein you can find the code used for analysis and plotting for https://aip.scitation.org/doi/full/10.1063/5.0023611"
+ year: 2020
+ authors: "Rachel Kurchin"
