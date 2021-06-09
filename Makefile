@@ -100,15 +100,12 @@ test: _site/ _site-publish/ $(TOOLS)
 	bundle exec htmlproofer \
 	--disable-external \
 	--check-html --check-img-http --enforce-https \
-	--typhoeus-config='{"headers":{"UserAgent":"htmlproofer"}}' \
 	_site
 
 	@echo "Checking published version"
 	bundle exec htmlproofer \
 	--http-status-ignore 999 \
-	--disable-external \
 	--check-html --check-img-http --enforce-https \
-	--typhoeus-config='{"headers":{"UserAgent":"htmlproofer"}}' \
 	_site-publish/
 
 # Archive Site for Publishing

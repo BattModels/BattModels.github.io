@@ -12,7 +12,7 @@ Our group is primarily computational/theoretical, with a small but growing exper
 ASE)](https://wiki.fysik.dtu.dk/ase/)
   - [Scientific Machine Learning](https://sciml.ai) in both [Julia](https://julialang.org) and Python
   - Phase-field modeling: [MOOSE](https://www.mooseframework.org)
-  - Crystal structure search/prediction: [CALYPSO](https://www.calypso.cn)
+  - Crystal structure search/prediction: <a href="http://calypso.cn" data-proofer-ignore>CALYPSO</a>
   - Bayesian optimization with [Dragonfly](https://dragonfly-opt.readthedocs.io/en/master/)
   - Nearly all of the above rely on high-performance computing resources on the shared College of Engineering Cluster mananged by our group, Arjuna, as
  well as at national leadership computing facilities such as NERSC and XSEDE
