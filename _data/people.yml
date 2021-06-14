@@ -119,6 +119,7 @@ alexius:
     image: img/people/Alexius_Wadell.jpg
     bio: Mechanical Engineering
     email: awadell [at] andrew [dot] cmu [dot] edu
+    webpage: https://www.linkedin.com/in/alexiuswadell/
 
 anirudh:
     display_name: "Anirudh Mohan"
