@@ -119,6 +119,7 @@ alexius:
     image: img/people/Alexius_Wadell.jpg
     bio: Mechanical Engineering
     email: awadell [at] andrew [dot] cmu [dot] edu
+    webpage: https://www.linkedin.com/in/alexiuswadell/
 
 anirudh:
     display_name: "Anirudh Mohan"
@@ -257,7 +258,7 @@ abhishek:
 hasnain:
     display_name: "Hasnain Hafiz"
     role: alumni-postdoc
-    bio: Postdoctoral Research Associated at Los Alamos National Laboratory
+    bio: Postdoctoral Research Associate at Los Alamos National Laboratory
 
 zijian:
     display_name: "Zijian Hong"
