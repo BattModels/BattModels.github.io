@@ -104,7 +104,7 @@ test: _site/ _site-publish/ $(TOOLS)
 
 	@echo "Checking published version"
 	bundle exec htmlproofer \
-	--http-status-ignore 999 \
+	--disable-external \
 	--check-html --check-img-http --enforce-https \
 	_site-publish/
 
