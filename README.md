@@ -1,67 +1,36 @@
-Viswanathan Research Group
-==========================
+# Viswanathan Research Group
 
 Website built using (and grateful to) [this template](https://github.com/uwsampa/research-group-web), of which this is no longer a fork so that we can have our own issues and pull requests. See bottom of this file for licensing info, etc.
 
 This README is a slightly modified, compressed, and reorganized version of the original from the template.
 
+---
+## Making Edits
 
-Quick Setup
------------
+For general information on editing files, committing changes and opening pull requests see [Making Changes](docs/making_changes.md)
 
-General remark: If you're not comfortable with using git on the command line, [here](https://try.github.io) are some resources. But for the purposes of making small changes to the website, you can also use the [GitHub Desktop](https://desktop.github.com) client.
+### On-Boarding
 
-1. Install the dependencies. You will need Python, bibble (`pip install bibble`), [Ruby][], and Jekyll (`gem install jekyll`). NOTE that you need Ruby 2.4 or higher and Jekyll 4.0 or higher. You can check these with `ruby -v` and `jekyll -v` respectively.
-2. [Clone the repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) to your local machine. MAKE A BRANCH, DO NOT COMMIT TO MASTER! (Or, fork it first and then commit to master all you want on your own fork)
-3. Type `make` to build the site and then run `make serve` to view the site locally.
-4. Make edits (see below for guidelines/gotchas for particular sections). Continue to preview locally to make sure things work as you want.
-5. Check that your changes don't break anything by running `make test`
-6. Once you're happy with your changes, commit, push, and make a PR from your branch to master.
+Welcome to the group! See [onboarding] for instructions on adding your information to the website.
 
-[Ruby]: https://www.ruby-lang.org/en/
+Existing group members should also refer to [onboarding], when updating their information.
 
-Personnel
----------
+[onboarding]: docs/onboarding.md
 
-People are listed in a [YAML][] file in `_data/people.yml`. You can list the name, link, bio, and role of each person. Roles (e.g., "Faculty", "Staff", and "Students") are defined in `_config.yml`.
+### Adding a Paper / Patent 📄
 
-[YAML]: https://en.wikipedia.org/wiki/YAML
+Congratulations on publishing a paper! Please add it to the website by following [Adding a Paper](docs/new_publication.md). Ditto for patents!
 
-Publication List
-----------------
 
-The list of publications is in `bib/pubs.bib`. Typing `make` will generate `pubs.html`, which contains a pretty, sorted HTML-formatted list of papers. The public page, `publications.html`, also has a link to download the original BibTeX.
+### Adding a News Item 📰
 
-**WHENEVER YOU HAVE A PAPER PUBLISHED, PLEASE:**
-1. Pat yourself on the back and have a drink/treat.
-2. Submit a PR to add your publication to the website! (See "Quick Setup" section above for how to do this)
+Were you mentioned in a newspaper, journal, or on Twitter! See [Adding a News Item](docs/news.md)
 
-News Items and Blog Posts
--------------------------
 
-For both long-form blog posts and short news updates, we use Jekyll's blogging system. To post a new item of either type, you create a file in the `_posts` directory using the naming convention `YYYY-MM-DD-title-for-url.md`. The date part of the filename always matters; the title part is currently only used for full blog posts (but is still required for news updates).
+### Announcing a Talk 📣
+Do you have an up coming talk, presentation, or dissertation? See [Adding a Talk](docs/news.md#talks)
 
-The file must begin with [YAML front matter][yfm]. For news updates, use this:
-
-    ---
-    layout: post
-    shortnews: true
-    ---
-
-For full blog posts, use this format:
-
-    ---
-    layout: post
-    title:  "Some Great Title Here"
-    ---
-
-And concoct a page title for your post. The body of the post goes after the `---` in either case.
-
-You can also customize the icon that is displayed on the news feed. By default it's `newspaper-o`. We use icons from the [FontAwesome][fa] icon set.
-
-[yfm]: http://jekyllrb.com/docs/frontmatter/
-[fa]: http://fontawesome.io/icons/
-
+---
 
 Credit Where Credit is Due
 --------------------------
