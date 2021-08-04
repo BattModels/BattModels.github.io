@@ -51,7 +51,7 @@ greg:
 emil:
     display_name: "Emil Annevelink"
     role: postdoc
-    image: img/people/Annevelink.png
+    image: img/people/Annevelink.jpg
     webpage: "https://scholar.google.com/citations?user=1PBVqewAAAAJ&hl=en"
     email: "eannevel [at] andrew [dot] cmu [dot] edu"
     bio: Postdoctoral Research Associate, Mechanical Engineering
@@ -211,7 +211,7 @@ shang:
 ssripad:
     display_name: "Shashank Sripad"
     role: phd
-    image: img/people/Shashank.png
+    image: img/people/Shashank.jpg
     bio: Mechanical Engineering
     email: ssripad [at] cmu [dot] edu
     webpage: "https://andrew.cmu.edu/user/ssripad/"

@@ -5,9 +5,13 @@ repos:
       - id: trailing-whitespace
         args: [--markdown-linebreak-ext=md]
       - id: check-added-large-files
+        args: ['--maxkb=100', '--enforce-all']
+        types: ['image']
       - id: check-yaml
       - id: check-xml
       - id: end-of-file-fixer
+      - id: check-merge-conflict
+      - id: check-case-conflict
   - repo: https://github.com/Lucas-C/pre-commit-hooks
     rev: v1.1.10
     hooks:
@@ -25,3 +29,9 @@ repos:
         language: fail
         exclude: ^img/
         types: ['image']
+      - id: no-binary-files
+        name: Check for binary files
+        entry: Binary files are not allowed, please remove them
+        language: fail
+        exclude_types: ['image', 'text']
+        exclude: files/Phuthi_CV.pdf
