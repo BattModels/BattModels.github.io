@@ -6,7 +6,7 @@ Welcome to the team! As a quick order of business, let's get you added to the we
 2) Clone the website: `git clone https://github.com/BattModels/group-website.git`
 3) Open `_data/people.yml` in the newly created `group-website` folder
 4) Add a small (<100 Kb) headshot here: `img/people/andrewid.png`
-    - If you headshot is too large, try compressing it with an online tool
+    - If your headshot is too large, try compressing it with an online tool
     - Aspect ratio should be 1:1 with the head centered in the image
 
 5) Add an entry to the end of the appropriate section:
@@ -22,10 +22,14 @@ Welcome to the team! As a quick order of business, let's get you added to the we
     - Push the commit to Githib with `git push -u origin add_john_doe`
 
 6) Open a [pull request on Github][pr]
+    - If this is your first commit, slack @awadell1 to approve running CI
     - If all checks pass, merge your pull request
-    - Otherwise, try to fix the issues or ask for help
+    - Otherwise, try to [fix the issues](1) or [ask for help](2)
 
 7) Congrats on making your first pull request in the group!
+
+[1]: https://github.com/BattModels/group-website/blob/master/docs/making_changes.md#status-checks
+[2]: https://github.com/BattModels/group-website/issues
 
 > Remember: All references to John Doe are for illustration. Please use
 > a more descriptive branch name. Like `add_your_name`
