@@ -80,6 +80,14 @@ vp:
     email: "vedantpu [at] andrew [dot] cmu [dot] com"
     bio: Research Assistant
 
+dgnanesh:
+    display_name: "Dwaraknath Gnaneshwar"
+    role: staff
+    image: img/people/Dwaraknath.jpeg
+    webpage: "https://www.linkedin.com/in/dwaraknath-gnaneshwar/"
+    email: "dgnanesh [at] andrew [dot] cmu [dot] com"
+    bio: Research Assistant
+
 # masters
 
 hongyi:
