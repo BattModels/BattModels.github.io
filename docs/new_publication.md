@@ -13,6 +13,7 @@ Citation entries must contain the following:
 
 - title
 - author
+- journal
 - year
 - url
 
