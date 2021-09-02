@@ -90,13 +90,6 @@ dgnanesh:
 
 # masters
 
-hongyi:
-    display_name: "Hongyi Lin"
-    role: masters
-    image: img/people/Hongyi_Lin.jpg
-    bio: Energy Science, Technology & Policy
-    email: hongyili [at] andrew [dot] cmu [dot] edu
-
 sean:
     display_name: "Xiaoyu (Sean) Sun"
     role: masters
@@ -158,6 +151,14 @@ hparks:
   bio: Mechanical Engineering
   webpage: "https://scholar.google.com/citations?user=6aNqviYAAAAJ&hl=en"
   email: hparks [at] andrew [dot] cmu [dot] edu
+
+hongyili:
+    display_name: "Hongyi Lin"
+    role: phd
+    image: img/people/hongyili.jpg
+    bio: Mechanical Engineering
+    email: hongyili [at] andrew [dot] cmu [dot] edu
+
 
 kian:
     display_name: "Jiankun (Kian) Pu"
