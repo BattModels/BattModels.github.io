@@ -282,9 +282,9 @@ vikram:
 azeeshan:
     display_name: "Zeeshan Ahmad"
     role: alumni-phd
-    bio: Postdoctoral Research Scholar at University of Chicago
+    bio: Postdoctoral Scholar at University of Chicago
+    email: "azeeshan [at] alumni [dot] cmu [dot] edu"
     webpage: https://ahzeeshan.github.io/
-    email: azeeshan [at] alumni [dot] cmu [dot] edu
 
 ghouchin:
     display_name: "Gregory Houchins"
