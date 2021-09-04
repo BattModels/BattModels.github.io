@@ -40,7 +40,7 @@ Welcome to the team! As a quick order of business, let's get you added to the we
 your_andrew_id:
     display_name: "John Doe"
     role: staff
-    image: img/people/john_doe.png
+    image: img/people/your_andrew_id.png
     webpage: "www.john_doe_awesome_site.com"
     email: "jdoe [at] andrew [dot] cmu [dot] com"
     bio: Current Position
