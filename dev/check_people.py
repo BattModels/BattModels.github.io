@@ -40,6 +40,9 @@ def check_people():
             logging.error("Missing 'image' for %s", name)
         else:
             img = Path(DIR, info["image"])
+            if info["image"].startswith("/"):
+                errors += 1
+                logging.error("Remove leading '/' from 'image' for %s", name)
             if not img.is_file():
                 errors += 1
                 logging.error("Missing 'image' (%s) for %s does not exist", img, name)
@@ -50,6 +53,7 @@ def check_people():
                     name,
                     img.name,
                 )
+                img.rename(Path(img.parent, name + img.suffix))
 
         # Check that name matches andrew id for current students
         # Ideally should match for prior students too, but that's harder
