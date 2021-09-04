@@ -1,3 +1,2 @@
 bibble
 pre-commit
-pyyaml
