@@ -12,5 +12,5 @@ zoom:
 
 Please join us for [Dilip Krishnamurthy’s] Ph.D. defense on {{ page.when }} via [Zoom] on the "*{{ page. title }}*"
 
-[Dilip Krishnamurthy’s]: {{ site.data.people["Dilip"].webpage }}
+[Dilip Krishnamurthy’s]: {{ site.data.people["dkrishn1"].webpage }}
 [Zoom]: {{ page.zoom.link }}
