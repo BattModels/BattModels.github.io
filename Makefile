@@ -96,6 +96,9 @@ test: _site/ _site-publish/ $(TOOLS)
 	@echo "Running pre-commit"
 	pre-commit run -a
 
+	@echo "Checking _data/people.yml"
+	python3 dev/check_people.py
+
 	@echo "Checking preview version"
 	bundle exec htmlproofer \
 	--disable-external \
