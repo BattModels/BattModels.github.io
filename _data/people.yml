@@ -40,14 +40,6 @@ dongzhr:
     bio: Postdoc Research Associate, Mechanical Engineering
     email: dongzhr [at] cmu [dot] edu
 
-ghouchin:
-    display_name: "Gregory Houchins"
-    role: postdoc
-    image: img/people/ghouchin.png
-    webpage: "https://andrew.cmu.edu/~ghouchin"
-    email: "ghouchin [at] andrew [dot] cmu [dot] edu"
-    bio: Swartz Center for Entrepreneurship Innovation Fellow, Carnegie Mellon University
-
 eannevel:
     display_name: "Emil Annevelink"
     role: postdoc
@@ -136,14 +128,6 @@ amyao:
     bio: Mechanical Engineering
     email: amyao [at] cmu [dot] edu
 
-dkrishn1:
-    display_name: "Dilip Krishnamurthy"
-    role: phd
-    image: img/people/dkrishn1.jpg
-    bio: Mechanical Engineering
-    email: dkrishn1 [at] andrew [dot] cmu [dot] edu
-    webpage: "https://dilipkrishnamurthy.github.io/"
-
 hparks:
   display_name: "Holden Parks"
   role: phd
@@ -203,13 +187,6 @@ mbabar:
     image: img/people/mbabar.jpg
     bio: Mechanical Engineering
     email: mbabar [at] andrew [dot] cmu [dot] edu
-
-ovinogra:
-    display_name: "Olga Vinogradova"
-    role: phd
-    image: img/people/ovinogra.jpg
-    bio: Chemical Engineering
-    email: ovinogra [at] andrew [dot] cmu [dot] edu
 
 shangzhu:
   display_name: "Shang Zhu"
@@ -302,10 +279,35 @@ vikram:
     bio: Junior Professor at RWTH Aachen University
     webpage: https://www.linkedin.com/in/abhishek-khetan-3551941ab/
 
-zeeshan:
+azeeshan:
     display_name: "Zeeshan Ahmad"
     role: alumni-phd
-    bio: Postdoctoral Research Scholar at University of Chicago
+    bio: Postdoctoral Scholar at University of Chicago
+    email: "azeeshan [at] alumni [dot] cmu [dot] edu"
+    webpage: https://ahzeeshan.github.io/
+
+ghouchin:
+    display_name: "Gregory Houchins"
+    role: alumni-phd
+    image: img/people/Gregory_Houchins.png
+    webpage: "https://andrew.cmu.edu/~ghouchin"
+    email: ghouchin [at] alumni [dot] cmu [dot] edu
+
+dkrishn1:
+    display_name: "Dilip Krishnamurthy"
+    role: alumni-phd
+    image: img/people/dilip_headshot.jpg
+    email: dkrishn1 [at] alumni [dot] cmu [dot] edu
+    webpage: "https://dilipkrishnamurthy.github.io/"
+
+ovinogra:
+    display_name: "Olga Vinogradova"
+    role: alumni-phd
+    image: img/people/Olga_Vinogradova.jpg
+    bio: Postdoctoral Researcher at Fritz Haber Institute of the Max Planck Society
+    email: ovinogra [at] alumni [dot] cmu [dot] edu
+    webpage: https://www.linkedin.com/in/ovinogradova/
+
 
 # masters, these ones are alphabetical currently
 
