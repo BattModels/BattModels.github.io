@@ -17,8 +17,8 @@ This file will guide you through editing files, committing your changes, and ope
 
 ```shell
 git fetch origin
-git checkout master
-git reset --hard origin/master
+git checkout main
+git reset --hard origin/main
 ```
 
 > This will delete any local changes you have, please stash or save them if important
@@ -30,14 +30,14 @@ Edits can also be made directly on Github:
 - [Editing files in your repository](https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/editing-files-in-your-repository)
 - [Creating new files](https://docs.github.com/en/github/managing-files-in-a-repository/managing-files-on-github/creating-new-files)
 
-When committing changes be sure to "create a new branch...", committing directly to master is blocked.
+When committing changes be sure to "create a new branch...", committing directly to main is blocked.
 
 
 
 ## Peer Review
 
 Peer review helps to catch issues before the changes go live (~10 minutes after
-merging into master) and gives stakeholders a chance to provide feedback. What
+merging into main) and gives stakeholders a chance to provide feedback. What
 follows is a rough guide, but when in doubt, ask for a review.
 
 | Change                                        | Reviewer Needed?                         |

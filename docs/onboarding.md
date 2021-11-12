@@ -28,7 +28,7 @@ Welcome to the team! As a quick order of business, let's get you added to the we
 
 7) Congrats on making your first pull request in the group!
 
-[1]: https://github.com/BattModels/group-website/blob/master/docs/making_changes.md#status-checks
+[1]: https://github.com/BattModels/group-website/blob/main/docs/making_changes.md#status-checks
 [2]: https://github.com/BattModels/group-website/issues
 
 > Remember: All references to John Doe are for illustration. Please use
