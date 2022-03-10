@@ -6,6 +6,7 @@ when: March 10th, 2022, from 3 to 5 pm EST
 zoom:
     id: 915 7971 5449
     link: https://cmu.zoom.us/j/91579715449?pwd=c2tvdzNhMG5aSlZ3ZzJyYlFGR2dydz09
+    passcode: 783542
 ---
 
 
