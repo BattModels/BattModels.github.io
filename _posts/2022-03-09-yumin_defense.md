@@ -4,9 +4,8 @@ icon: graduation-cap
 title: Simulation-Informed Design of Liquid Electrolytes for Lithium Batteries
 when: March 10th, 2022, from 3 to 5 pm EST
 zoom:
-    id: 988 2424 0141
-    link: https://cmu.zoom.us/j/98824240141?pwd=TlB6dGtIUEIxYk1HOXFpUDdHRE5Fdz09
-    passcode: 783542
+    id: 915 7971 5449
+    link: https://cmu.zoom.us/j/91579715449?pwd=c2tvdzNhMG5aSlZ3ZzJyYlFGR2dydz09
 ---
 
 
