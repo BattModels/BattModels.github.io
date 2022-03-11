@@ -22,6 +22,7 @@ Replace `icon` with an appropriate selection from the table below
 | Announcement of an Event          | `calendar`        |
 | Link to Video Platform            | `film`            |
 | Graduation, Defense or related    | `graduation-cap`  |
+| Podcast/Audio-Only Recording      | `podcast`         |
 
 
 I.e. A post linking to YouTube should have: `icon: film`
