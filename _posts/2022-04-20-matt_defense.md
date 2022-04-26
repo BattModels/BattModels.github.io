@@ -1,7 +1,7 @@
 ---
 layout: talk
 icon: graduation-cap
-title: "INCEPTS: Software forEquitable & Efficient Placement ofElectric Vehicle Chargers & Skyports"
+title: Applications of Complexity Science in Modeling Electric Vehicles and Planning Charging Infrastructure
 when: April 27th, 2022, from 1 to 3 pm EST
 zoom:
     id: 946 6760 3377
