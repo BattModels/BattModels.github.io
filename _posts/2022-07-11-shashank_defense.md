@@ -10,6 +10,6 @@ zoom:
 ---
 
 
-Please join us for Shashank Srpad's Ph.D. defense on {{ page.when }} via [Zoom] on the "*{{ page. title }}*"
+Please join us for {% person ssripad 's %} Ph.D. defense on {{ page.when }} via [Zoom] on the "*{{ page. title }}*"
 
 [Zoom]: {{ page.zoom.link }}
