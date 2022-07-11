@@ -43,10 +43,11 @@ follows is a rough guide, but when in doubt, ask for a review.
 | Change                                        | Reviewer Needed?                         |
 |-----------------------------------------------|------------------------------------------|
 | Update your profile image, website, or email  | Nope, you are good to go                 |
+| News post about yourself?                     | Nope, you are good to go                 |
 | News post about someone else?                 | Add them as a reviewer                   |
 | New project page?                             | Add someone (not just you) as a reviewer |
 | Edits to an existing page?                    | Add the prior author                     |
-| Docs, testing, or code changes?               | Add Alex as a reviewer                   |
+| Docs, testing, or code changes?               | Add Alex (@awadell1) as a reviewer       |
 
 ## Status Checks
 
