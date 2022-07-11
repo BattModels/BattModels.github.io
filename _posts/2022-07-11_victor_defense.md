@@ -2,7 +2,7 @@
 layout: talk
 icon: graduation-cap
 title: Solid Interfaces in Lithium Ion Batteries
-when: July 15th, 2022, from 11 am to 2 pm EST
+when: July 15th, 2022, from 3 pm to 5 pm EST
 zoom:
     id: 949 3168 8517
     link: https://cmu.zoom.us/j/94931688517?pwd=dGpYQzZvT3dqdHdGNjMzaVZ3QnFLUT09
