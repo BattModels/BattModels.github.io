@@ -24,8 +24,10 @@ Replace `icon` with an appropriate selection from the table below
 | Graduation, Defense or related    | `graduation-cap`  |
 | Podcast/Audio-Only Recording      | `podcast`         |
 
-
 I.e. A post linking to YouTube should have: `icon: film`
+
+> Nothing quite fits? Pick a [free FontAwesome v5](https://fontawesome.com/v5/search?m=free) icon and add it to the list above.
+> Please confirm that the icon is correctly rendered [locally](./making_changes.md#building-locally.md) before merging to the main branch.
 
 ## Post Contents
 
