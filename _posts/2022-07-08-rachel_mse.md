@@ -1,6 +1,6 @@
 ---
 layout: post
-icon: building-columns
+icon: university
 shortnews: true
 ---
 
