@@ -89,6 +89,13 @@ seansun:
     bio: Computer Science
     email: seansun [at] andrew [dot] cmu [dot] edu
 
+yuanyih:
+    display_name: "Yuanyi (Yara) Huang"
+    role: masters
+    image: img/people/yuanyih.png
+    email: "yuanyih [at] andrew [dot] cmu [dot] com"
+    bio: Chemical Engineering
+
 # phd students, currently alphabetical
 
 ardave:
