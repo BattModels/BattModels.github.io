@@ -35,3 +35,9 @@ repos:
         language: fail
         exclude_types: ['image', 'text']
         exclude: files/Phuthi_CV.pdf
+      - id: valid-post-filename
+        name: Checks that post have valid filenames
+        entry: "Files in _posts/ must be named: YYYY-MM-DD-name_with_underscore.md"
+        language: fail
+        files: _posts/
+        exclude: '_posts/\d{4}-\d{2}-\d{2}-[a-zA-Z_]*\.md'
