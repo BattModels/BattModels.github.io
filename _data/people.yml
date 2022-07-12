@@ -211,6 +211,14 @@ ssripad:
     email: ssripad [at] cmu [dot] edu
     webpage: "https://andrew.cmu.edu/user/ssripad/"
 
+sgodse:
+    display_name: "Shravan Godse"
+    role: phd
+    image: img/people/sgodse.jpg
+    bio: Mechanical Engineering
+    webpage: "https://shravangodse16.github.io/"
+    email: sgodse [at] andrew [dot] cmu [dot] edu
+
 varunshankar:
     display_name: "Varun Shankar"
     role: phd
