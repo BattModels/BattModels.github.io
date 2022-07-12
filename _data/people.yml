@@ -128,6 +128,13 @@ amyao:
     bio: Mechanical Engineering
     email: amyao [at] cmu [dot] edu
 
+hancheng2000:
+    display_name: "Hancheng Zhao"
+    role: phd
+    image: img/people/hancheng2000.jpg
+    bio: Mechanical Engineering
+    email: hancheng2000 [at] cmu [dot] edu
+
 hparks:
   display_name: "Holden Parks"
   role: phd
