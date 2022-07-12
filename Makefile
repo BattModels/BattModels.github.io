@@ -88,7 +88,7 @@ deploy-preview: _site/
 deploy-github:
 	curl -L $(RELEASE_URL) -o github-publish.zip
 	unzip -o -d github-publish github-publish
-	rclone sync -P github-publish $(DEPLOY_HOST):$(PREVIEW_DIR)
+	rclone sync -P -v --sftp-disable-hashcheck github-publish $(DEPLOY_HOST):$(PREVIEW_DIR)
 	rm -rf github-publish github-publish.zip
 
 # Run test on the website using htmlproofer
