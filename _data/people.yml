@@ -114,6 +114,13 @@ awadell:
     email: awadell [at] andrew [dot] cmu [dot] edu
     webpage: https://www.linkedin.com/in/alexiuswadell/
 
+amal:
+    display_name: "Amal S Sebastian"
+    role: phd
+    image: img/people/asebasti.jpeg
+    bio: Mechanical Engineering
+    email: asebasti [at] andrew [dot] cmu [dot] edu
+
 aniruddh:
     display_name: "Anirudh Mohan"
     role: phd
