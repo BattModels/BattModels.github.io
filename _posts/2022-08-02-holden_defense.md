@@ -2,7 +2,7 @@
 layout: talk
 icon: graduation-cap
 title: Atomistic Modeling and Machine Learning Methods for Investigating Electrochemical Systems
-when: July 19th, 2021, from 2 to 4:30 pm EST
+when: August 5th, 2022, from 2 to 5:00 pm EST
 where: Scott Hall 5002
 zoom:
     id: 976 6371 2256
