@@ -5,9 +5,9 @@ title: Atomistic Modeling and Machine Learning Methods for Investigating Electro
 when: August 5th, 2022, from 2 to 5:00 pm EST
 where: Scott Hall 5002
 zoom:
-    id: 976 6371 2256
-    link: https://cmu.zoom.us/j/97663712256?pwd=RG5LcmVlcDAzWFlORTlmTnBHbGpHUT09
-    passcode: 881994
+    id: 927 8886 8282
+    link: https://cmu.zoom.us/j/92788868282?pwd=d1BaQ2ZaS3dieGJZcS9icjY0WGFMUT09
+    passcode: 154687
 ---
 
 
