@@ -286,6 +286,7 @@ ghouchin:
 
 dkrishn1:
     display_name: "Dilip Krishnamurthy"
+    bio: Senior Systems Software Engineer, NVIDIA
     role: alumni-phd
     email: dkrishn1 [at] alumni [dot] cmu [dot] edu
     webpage: "https://dilipkrishnamurthy.github.io/"
@@ -300,7 +301,7 @@ ovinogra:
 yuminz:
     display_name: "Yumin Zhang"
     role: alumni-phd
-    bio: 
+    bio: Battery Materials Simulation Scientist, ByteDance
     email: yuminz [at] alumni [dot] cmu [dot] edu
 
 aniruddh:
@@ -312,7 +313,7 @@ aniruddh:
 mguttenb:
     display_name: "Matt Guttenberg"
     role: alumni-phd
-    bio: 
+    bio: founder, INCEPTS
     email: mguttenb [at] alumni [dot] cmu [dot] edu
 
 
@@ -328,7 +329,7 @@ vventuri:
     role: alumni-phd
     webpage: "https://www.andrew.cmu.edu/user/vventuri/"
     email: "vventuri [at] lumni [dot] cmu [dot] edu"
-    bio: 
+    bio: Postdoctoral Researcher at MIT
 
 hparks:
   display_name: "Holden Parks"
