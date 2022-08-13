@@ -33,13 +33,6 @@ sjtuzhanglei:
     email: "sjtuzhanglei [at] gmail [dot] com"
     bio: Postdoctoral Research Associate, Mechanical Engineering
 
-dongzhr:
-    display_name: "Dong Zhang"
-    role: postdoc
-    image: img/people/dongzhr.jpg
-    bio: Postdoc Research Associate, Mechanical Engineering
-    email: dongzhr [at] cmu [dot] edu
-
 eannevel:
     display_name: "Emil Annevelink"
     role: postdoc
@@ -310,6 +303,11 @@ ziqiwang:
 # COMMENCE ALUMNI SECTION
 
 # first postdocs, chronological
+
+dongzhr:
+    display_name: "Dong Zhang"
+    role: alumni-postdoc
+    bio: Assitant Professor, University of Oklahoma
 
 abhishek:
     display_name: "Abhishek Khetan"
