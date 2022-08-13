@@ -15,12 +15,12 @@ roles:
     name: PI
   - key: postdoc
     name: Postdoctoral Researchers
-  - key: staff
-    name: Research Staff
+#  - key: staff
+#    name: Research Staff
   - key: phd
     name: Doctoral Students
-  - key: masters
-    name: Master's Students
+#  - key: masters
+#    name: Master's Students
   - key: ugrad
     name: Undergraduate Students
   - key: alumni-masters
