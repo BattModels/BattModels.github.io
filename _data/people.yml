@@ -57,30 +57,6 @@ yizhaog:
     webpage: "https://scholar.google.com/citations?user=yCkqajsAAAAJ&hl=zh-CN"
     image: img/people/yizhaogao.jpg
 
-# misc
-
-paul:
-   display_name: "Paul Shen"
-   role: staff
-   bio: Post-master's Researcher
-   image: img/people/paul.jpg
-
-vedantpu:
-    display_name: "Vedant Puri"
-    role: staff
-    image: img/people/vedantpu.jpg
-    webpage: "https://www.linkedin.com/in/vpuri3/"
-    email: "vedantpu [at] andrew [dot] cmu [dot] com"
-    bio: Research Assistant
-
-dgnanesh:
-    display_name: "Dwaraknath Gnaneshwar"
-    role: staff
-    image: img/people/dgnanesh.jpeg
-    webpage: "https://www.linkedin.com/in/dwaraknath-gnaneshwar/"
-    email: "dgnanesh [at] andrew [dot] cmu [dot] com"
-    bio: Research Assistant
-
 # masters
 
 seansun:
@@ -263,6 +239,14 @@ vazumah:
     image: img/people/vazumah.png
     bio: Mechanical Engineering
     email: "vazumah [at] andrew [dot] cmu [dot] com"
+
+vedantpu:
+    display_name: "Vedant Puri"
+    role: phd
+    image: img/people/vedantpu.jpg
+    webpage: "https://www.linkedin.com/in/vpuri3/"
+    email: "vedantpu [at] andrew [dot] cmu [dot] com"
+    bio: Research Assistant
 
 venkatek:
     display_name: "Venkatesh Krishnamurthy"
