@@ -306,7 +306,7 @@ aniruddh:
     display_name: "Anirudh Mohan"
     role: alumni-phd
     bio: Distinguished Postdoctoral Fellow at Princeton Andlinger Center
-    email: 
+    email: aniruddh [at] alumni [dot] cmu [dot] edu
 
 mguttenb:
     display_name: "Matt Guttenberg"
@@ -317,21 +317,21 @@ mguttenb:
 ssripad:
     display_name: "Shashank Sripad"
     role: alumni-phd
-    bio: 
-    email: 
+    bio:
+    email: ssripad [at] alumni [dot] cmu [dot] edu
     webpage: "https://andrew.cmu.edu/user/ssripad/"
 
 vventuri:
     display_name: "Victor Venturi"
     role: alumni-phd
     webpage: "https://www.andrew.cmu.edu/user/vventuri/"
-    email: "vventuri [at] lumni [dot] cmu [dot] edu"
+    email: "vventuri [at] alumni [dot] cmu [dot] edu"
     bio: Postdoctoral Researcher at MIT
 
 hparks:
   display_name: "Holden Parks"
   role: alumni-phd
-  bio: 
+  bio:
   webpage: "https://scholar.google.com/citations?user=6aNqviYAAAAJ&hl=en"
   email: hparks [at] alumni [dot] cmu [dot] edu
 
