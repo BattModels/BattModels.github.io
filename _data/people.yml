@@ -17,14 +17,6 @@ pinweng:
     email: "pinweng [at] andrew [dot] cmu [dot] edu"
     bio: Postdoctoral Research Associate, Mechanical Engineering
 
-rkurchin:
-    display_name: "Rachel Kurchin"
-    role: postdoc
-    image: img/people/rkurchin.jpg
-    webpage: "https://rkurchin.github.io"
-    email: "rkurchin [at] cmu [dot] edu"
-    bio: MolSSI Postdoctoral Fellow, Mechanical Engineering and Materials Science and Engineering
-
 sjtuzhanglei:
     display_name: "Lei Zhang"
     role: postdoc
@@ -254,6 +246,13 @@ zijian:
     display_name: "Zijian Hong"
     role: alumni-postdoc
     bio: Faculty at Zhejiang University
+
+rkurchin:
+    display_name: "Rachel Kurchin"
+    role: alumni-postdoc
+    webpage: "https://rkurchin.github.io"
+    email: "rkurchin [at] cmu [dot] edu"
+    bio: Research faculty in CMU MSE
 
 # then phd, I think these are chronological
 
