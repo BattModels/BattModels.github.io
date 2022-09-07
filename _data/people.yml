@@ -330,7 +330,7 @@ vventuri:
 hparks:
   display_name: "Holden Parks"
   role: alumni-phd
-  bio:
+  bio: Software Developer, Lawrence Livermore National Lab
   webpage: "https://scholar.google.com/citations?user=6aNqviYAAAAJ&hl=en"
   email: hparks [at] alumni [dot] cmu [dot] edu
 
