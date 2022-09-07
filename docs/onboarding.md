@@ -6,9 +6,11 @@ Welcome to the team! As a quick order of business, let's get you added to the we
 > a more descriptive branch name. Like `add_your_name` instead of `add_john_doe`
 
 1) Install [git], create a [GitHub] account and request to join [BattModels]
-2) Clone the website: `git clone https://github.com/BattModels/group-website.git`
-3) Open `_data/people.yml` in the newly created `group-website` folder
-4) Add a small (<100 Kb) headshot here: `img/people/andrewid.png`
+    - [Setting up Git](https://docs.github.com/en/get-started/quickstart/set-up-git)
+    - [Connecting to GitHub from git](https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git)
+3) Clone the website: `git clone https://github.com/BattModels/group-website.git`
+4) Open `_data/people.yml` in the newly created `group-website` folder
+5) Add a small (<100 Kb) headshot here: `img/people/andrewid.png`
     - If your headshot is too large, try compressing it with an [online tool](https://imagecompressor.com/)
     - Aspect ratio should be 1:1 with the head centered in the image ([Example](https://github.com/BattModels/group-website/blob/main/img/people/venkvis.png))
 
