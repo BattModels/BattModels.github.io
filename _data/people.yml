@@ -249,6 +249,14 @@ sgodse:
     webpage: "https://shravangodse16.github.io/"
     email: sgodse [at] andrew [dot] cmu [dot] edu
 
+tz4:
+    display_name: "Tianyi Zhang"
+    role: phd
+    image: img/people/tz4.jpeg
+    bio: Mechanical Engineering
+    webpage: "https://www.linkedin.com/in/tianyi-zhang-89b2ba163/"
+    email: tz4 [at] andrew [dot] cmu [dot] edu
+    
 varunshankar:
     display_name: "Varun Shankar"
     role: phd
