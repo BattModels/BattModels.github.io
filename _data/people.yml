@@ -41,6 +41,12 @@ vsulzer:
     webpage: "https://sites.google.com/view/valentinsulzer"
     image: img/people/vsulzer.jpg
 
+mguttenb:
+    display_name: "Matt Guttenberg"
+    role: alumni-phd
+    bio: founder, INCEPTS
+    email: mguttenb [at] alumni [dot] cmu [dot] edu
+
 yizhaog:
     display_name: "Yizhao Gao"
     role: postdoc
@@ -307,16 +313,9 @@ aniruddh:
     bio: Distinguished Postdoctoral Fellow at Princeton Andlinger Center
     email: aniruddh [at] alumni [dot] cmu [dot] edu
 
-mguttenb:
-    display_name: "Matt Guttenberg"
-    role: alumni-phd
-    bio: founder, INCEPTS
-    email: mguttenb [at] alumni [dot] cmu [dot] edu
-
 ssripad:
     display_name: "Shashank Sripad"
     role: alumni-phd
-    bio:
     email: ssripad [at] alumni [dot] cmu [dot] edu
     webpage: "https://andrew.cmu.edu/user/ssripad/"
 
