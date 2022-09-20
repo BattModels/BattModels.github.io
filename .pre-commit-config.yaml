@@ -40,4 +40,4 @@ repos:
         entry: "Files in _posts/ must be named: YYYY-MM-DD-name_with_underscore.md"
         language: fail
         files: _posts/
-        exclude: '_posts/\d{4}-\d{2}-\d{2}-[a-zA-Z_]*\.md'
+        exclude: '_posts/\d{4}-\d{2}-\d{2}-\w*\.md'
