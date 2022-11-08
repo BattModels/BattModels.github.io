@@ -10,6 +10,15 @@ venkvis:
 
 # Postdocs, ordered by seniority at present
 
+robyg:
+    display_name: "Roby Gauthier"
+    role: postdoc
+    image: img/people/robyg.jpg
+    webpage: "https://www.linkedin.com/in/roby-gauthier-766b91b0/"
+    email: "robyg [at] gmail [dot] com"
+    bio: Postdoctoral Research Associate, Mechanical Engineering
+    
+    
 pinweng:
     display_name: "Pinwen Guan"
     role: postdoc
