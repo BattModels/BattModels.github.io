@@ -9,15 +9,6 @@ venkvis:
     email: "venkvis [at] cmu [dot] edu"
 
 # Postdocs, ordered by seniority at present
-
-robyg:
-    display_name: "Roby Gauthier"
-    role: postdoc
-    image: img/people/robyg.jpg
-    webpage: "https://www.linkedin.com/in/roby-gauthier-766b91b0/"
-    email: "robyg [at] gmail [dot] com"
-    bio: Postdoctoral Research Associate, Mechanical Engineering
-    
     
 pinweng:
     display_name: "Pinwen Guan"
@@ -63,6 +54,14 @@ yizhaog:
     email: "yizhaog [at] andrew [dot] cmu [dot] edu"
     webpage: "https://scholar.google.com/citations?user=yCkqajsAAAAJ&hl=zh-CN"
     image: img/people/yizhaogao.jpg
+
+robyg:
+    display_name: "Roby Gauthier"
+    role: postdoc
+    image: img/people/robyg.jpg
+    webpage: "https://www.linkedin.com/in/roby-gauthier-766b91b0/"
+    email: "robyg [at] gmail [dot] com"
+    bio: Postdoctoral Research Associate, Mechanical Engineering:
 
 # masters
 
