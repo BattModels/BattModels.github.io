@@ -55,6 +55,14 @@ yizhaog:
     webpage: "https://scholar.google.com/citations?user=yCkqajsAAAAJ&hl=zh-CN"
     image: img/people/yizhaogao.jpg
 
+robyg:
+    display_name: "Roby Gauthier"
+    role: postdoc
+    image: img/people/robyg.jpg
+    webpage: "https://scholar.google.com/citations?hl=en&user=Tv6LOuUAAAAJ"
+    email: "robyg [at] gmail [dot] com"
+    bio: Postdoctoral Research Associate, Mechanical Engineering
+
 # masters
 
 yuanyih:
