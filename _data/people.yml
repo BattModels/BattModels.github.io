@@ -33,14 +33,6 @@ eannevel:
     email: "eannevel [at] andrew [dot] cmu [dot] edu"
     bio: Postdoctoral Research Associate, Mechanical Engineering
 
-vsulzer:
-    display_name: "Valentin Sulzer"
-    role: postdoc
-    bio: Postdoctoral Research Associate, Mechanical Engineering
-    email: "vsulzer [at] andrew [dot] cmu [dot] edu"
-    webpage: "https://sites.google.com/view/valentinsulzer"
-    image: img/people/vsulzer.jpg
-
 mguttenb:
     display_name: "Matt Guttenberg"
     role: alumni-phd
@@ -268,6 +260,13 @@ rkurchin:
     webpage: "https://rkurchin.github.io"
     email: "rkurchin [at] cmu [dot] edu"
     bio: Research faculty in CMU MSE
+
+vsulzer:
+    display_name: "Valentin Sulzer"
+    role: alumni-postdoc
+    bio: Co-Founder and CEO at Ionworks
+    email: "valentin [at] ion-works [dot] com"
+    webpage: "https://www.ion-works.com"
 
 # then phd, I think these are chronological
 
