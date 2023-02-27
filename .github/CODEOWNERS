@@ -1,11 +1,35 @@
 # Admin owns all non-content files
-!_posts/ @awadell1
-!_projects/ @awadell1
-!_data/people.yml @awadell1
-!img @awadell1
+.github/ @awadell1
+_includes/ @awadell1
+_layouts/ @awadell1
+_plugins/ @awadell1
+bib/publications.tmpl @awadell1
+css/ @awadell1
+dev/ @awadell1
+docs/ @awadell1
+files/ @awadell1
+js/ @awadell1
+
+# Templates for pages
+404.md @awadell1
+blog.html @awadell1
+index.html @awadell1
+patents.html @awadell1
+people.html @awadell1
+publications.html @awadell1
+software.html @awadell1
+sponsors.html @awadell1
+
+# Build Scripts etc.
+LICENSE @awadell1
+Makefile @awadell1
+_config.yml @awadell1
+Gemfile @awadell1
 
 # Admin owns documentation files
-docs/ @awadell1
+docs/ @awadell1 @awadell1
+README.md @awadell1
+code.md @awadell1
 
 # Prefer Markdown usage in posts and projects
 *.html @awadell1
