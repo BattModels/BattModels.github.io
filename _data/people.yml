@@ -40,14 +40,6 @@ mguttenb:
     email: mguttenb [at] alumni [dot] cmu [dot] edu
     webpage: "https://www.linkedin.com/in/matthew-guttenberg/"
 
-yizhaog:
-    display_name: "Yizhao Gao"
-    role: postdoc
-    bio: Postdoctoral Research Associate, Mechanical Engineering
-    email: "yizhaog [at] andrew [dot] cmu [dot] edu"
-    webpage: "https://scholar.google.com/citations?user=yCkqajsAAAAJ&hl=zh-CN"
-    image: img/people/yizhaogao.jpg
-
 robyg:
     display_name: "Roby Gauthier"
     role: postdoc
@@ -66,14 +58,6 @@ yuanyih:
     bio: Chemical Engineering
 
 # phd students, currently alphabetical
-
-ardave:
-    display_name: "Adarsh (Ady) Dave"
-    role: phd
-    image: img/people/ardave.jpg
-    bio: Mechanical Engineering
-    email: ardave [at] cmu [dot] edu
-    webpage: "https://scholar.google.com/citations?user=G4sH0egAAAAJ&hl=en"
 
 abills:
     display_name: "Alec Bills"
@@ -209,13 +193,6 @@ vedantpu:
     email: "vedantpu [at] andrew [dot] cmu [dot] com"
     bio: Research Assistant
 
-venkatek:
-    display_name: "Venkatesh Krishnamurthy"
-    role: phd
-    image: img/people/venkatek.jpg
-    bio: Materials Science and Engineering
-    email: venkatek [at] andrew [dot] cmu [dot] edu
-
 cskelly:
     display_name: "Celia Kelly"
     role: phd
@@ -340,6 +317,18 @@ hparks:
   bio: Software Developer, Lawrence Livermore National Lab
   webpage: "https://scholar.google.com/citations?user=6aNqviYAAAAJ&hl=en"
   email: hparks [at] alumni [dot] cmu [dot] edu
+
+venkatek:
+    display_name: "Venkatesh Krishnamurthy"
+    role: alumni-phd
+    bio: Senior Engineer, Our Next Energy
+    email: venkatek [at] andrew [dot] cmu [dot] edu
+
+ardave:
+    display_name: "Adarsh (Ady) Dave"
+    role: alumni-phd
+    email: ardave [at] cmu [dot] edu
+    webpage: "https://scholar.google.com/citations?user=G4sH0egAAAAJ&hl=en"
 
 # masters, these ones are alphabetical currently
 
