@@ -62,7 +62,7 @@ nirmitd:
     role: masters
     image: img/people/nirmitd.jpg
     webpage: "www.nirmitdeshpande.com"
-    email: "nirmit [at] cmu [dot] edu"
+    email: "nirmitd [at] andrew [dot] cmu [dot] edu"
     bio: EST&P
 
 
