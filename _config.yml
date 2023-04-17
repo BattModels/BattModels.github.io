@@ -19,8 +19,8 @@ roles:
 #    name: Research Staff
   - key: phd
     name: Doctoral Students
-#  - key: masters
-#    name: Master's Students
+  - key: masters
+    name: Master's Students
   - key: ugrad
     name: Undergraduate Students
   - key: alumni-masters
