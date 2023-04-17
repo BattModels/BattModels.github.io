@@ -61,7 +61,7 @@ nirmitd:
     display_name: "Nirmit Deshpande"
     role: masters
     image: img/people/nirmitd.jpg
-    webpage: "www.nirmitdeshpande.com"
+    webpage: "https://www.nirmitdeshpande.com/"
     email: "nirmitd [at] andrew [dot] cmu [dot] edu"
     bio: EST&P
 
