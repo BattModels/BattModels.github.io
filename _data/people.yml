@@ -57,6 +57,15 @@ yuanyih:
     email: "yuanyih [at] andrew [dot] cmu [dot] com"
     bio: Chemical Engineering
 
+nirmitd:
+    display_name: "Nirmit Deshpande"
+    role: masters
+    image: img/people/nirmitd.jpg
+    webpage: "www.nirmitdeshpande.com"
+    email: "nirmit [at] cmu [dot] edu"
+    bio: EST&P
+
+
 # phd students, currently alphabetical
 
 abills:
