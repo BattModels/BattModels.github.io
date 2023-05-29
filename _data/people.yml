@@ -216,6 +216,15 @@ ziqiwang:
     bio: Mechanical Engineering
     email: ziqiwang [at] andrew [dot] cmu [dot] edu
 
+#undergrads
+
+shagunm:
+    display_name: "Shagun Maheshwari"
+    role: ugrad
+    image: img/people/shagunm.jpg
+    bio: Machine Learning & Material Science Engineering
+    email: shagunm [at] andrew [dot] cmu [dot] edu
+
 # COMMENCE ALUMNI SECTION
 
 # first postdocs, chronological
