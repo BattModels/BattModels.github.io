@@ -74,6 +74,7 @@ abills:
     image: img/people/abills.jpg
     bio: Mechanical Engineering
     email: abills [at] andrew [dot] cmu [dot] edu
+    webpage: https://www.linkedin.com/in/alecbills/
 
 awadell:
     display_name: "Alex Wadell"
