@@ -228,7 +228,8 @@ dongzhr:
 abhishek:
     display_name: "Abhishek Khetan"
     role: alumni-postdoc
-    bio: Postdoctoral Researcher at Dutch Institute for Fundamental Energy Research
+    bio: Junior Professor at RWTH Aachen University
+    webpage: https://www.linkedin.com/in/abhishek-khetan-3551941ab/
 
 hasnain:
     display_name: "Hasnain Hafiz"
@@ -264,8 +265,8 @@ oleg:
 vikram:
     display_name: "Vikram Pande"
     role: alumni-phd
-    bio: Junior Professor at RWTH Aachen University
-    webpage: https://www.linkedin.com/in/abhishek-khetan-3551941ab/
+    bio: Senior Research Engineer at Tesla
+    webpage: https://www.linkedin.com/in/vikram-pande-8106111b/
 
 azeeshan:
     display_name: "Zeeshan Ahmad"
