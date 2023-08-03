@@ -7,6 +7,7 @@ where: Scott Hall 5002
 zoom:
     id: 956 8871 5443
     link: https://cmu.zoom.us/j/95688715443?pwd=VWQ3YWllZkZOaFNYT2xTWkgrMExZZz09
+    passcode: 432018
 ---
 
 
