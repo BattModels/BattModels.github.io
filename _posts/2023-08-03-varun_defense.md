@@ -1,4 +1,4 @@
-c---
+---
 layout: talk
 icon: graduation-cap
 title: Differentiable Fluid Dynamics
