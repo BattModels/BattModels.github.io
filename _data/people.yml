@@ -106,6 +106,14 @@ amyao:
     bio: Mechanical Engineering
     email: amyao [at] cmu [dot] edu
 
+changwex:
+    display_name: "Changwen Xu"
+    role: phd
+    image: img/people/changwex.jpg
+    webpage: "https://changwenxu98.github.io"
+    email: "changwex [at] andrew [dot] cmu [dot] com"
+    bio: Mechanical Engineering
+
 hancheng2000:
     display_name: "Hancheng Zhao"
     role: phd
