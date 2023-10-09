@@ -114,6 +114,14 @@ changwex:
     email: "changwex [at] andrew [dot] cmu [dot] com"
     bio: Mechanical Engineering
 
+chenyanh:
+    display_name: "Chenyang Huang"
+    role: phd
+    image: img/people/chenyanh.JPG
+    webpage: "https://cyhuang514.github.io"
+    email: "chenyanh [at] andrew [dot] cmu [dot] com"
+    bio: Mechanical Engineering
+
 hancheng2000:
     display_name: "Hancheng Zhao"
     role: phd
