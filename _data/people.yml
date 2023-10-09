@@ -48,6 +48,14 @@ robyg:
     email: "robyg [at] andrew [dot] cmu [dot] com"
     bio: Postdoctoral Research Associate, Mechanical Engineering
 
+andrewbli:
+    display_name: "Andrew B. Li"
+    role: postdoc
+    image: img/people/andrewbli.jpg
+    webpage: "https://scholar.google.com/citations?user=wE3DmJAAAAAJ"
+    email: "andreli [at] umich [dot] com"
+    bio: Postdoctoral Research Associate, Aerospace Engineering
+
 # masters
 
 yuanyih:
