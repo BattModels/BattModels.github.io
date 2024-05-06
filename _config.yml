@@ -1,5 +1,5 @@
 name: Viswanathan Research Group @CMU
-url: eeg.engin.umich.edu
+url: https://eeg.engin.umich.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
