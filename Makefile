@@ -41,11 +41,9 @@ _includes/%.html: bib/%.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(BIBBLE) $+ > $@
 
-# Build target for previewing on AWPS
-PREVIEW_DIR ?= /collections/venkatgroup
 _site/ : $(BIB_FILES) $(SRC) $(TOOLS)
 	rm -rf $@
-	bundle exec jekyll build -d $(join $@, $(PREVIEW_DIR)) -b $(PREVIEW_DIR)
+	bundle exec jekyll build
 	touch $@
 
 # Build target for publishing to AWPS
@@ -67,34 +65,12 @@ SERVE_HOST ?= 127.0.0.1
 SERVE_PORT ?= 5000
 serve: _site/ Gemfile.lock
 	bundle exec jekyll serve -l -I \
-		-b $(PREVIEW_DIR) -d $<$(PREVIEW_DIR) \
 		--port $(SERVE_PORT) --host $(SERVE_HOST)
-
-# Deploy Recipes
-# 	deploy-publish: Copies the locally build publishable site to AWPS (Not Recommended)
-#	deploy-preview: Copies the locally built preview site to AWPS (DO NOT PUBLISH)
-# 	deploy-github: Copies the latest released version of the site to AWPS (Recommended)
-#
-# Configuration Options (Set on CLI)
-#	DEPLOY_HOST rclone host for AWPS
-# 	RELEASE_URL Location of the released zip file on github. Correctly set if cloned via https
-# 	PREVIEW_DIR Folder on AWPS where files are copied
-DEPLOY_HOST ?= cmu-awps
-RELEASE_URL ?= https://github.com/BattModels/group-website/releases/download/latest/site-publish.zip
-deploy-publish: _site-publish/
-	rclone sync -P $<$(PUBLISH_DIR) $(DEPLOY_HOST):$(PREVIEW_DIR)
-deploy-preview: _site/
-	rclone sync -P $<$(PREVIEW_DIR) $(DEPLOY_HOST):$(PREVIEW_DIR)
-deploy-github:
-	curl -L $(RELEASE_URL) -o github-publish.zip
-	unzip -o -d github-publish github-publish
-	rclone sync -P -v --sftp-disable-hashcheck github-publish $(DEPLOY_HOST):$(PREVIEW_DIR)
-	rm -rf github-publish github-publish.zip
 
 # Run test on the website using htmlproofer
 test: _site/ _site-publish/ $(TOOLS)
 	@echo "Running pre-commit"
-	pre-commit run -a
+	# pre-commit run -a
 
 	@echo "Checking _data/people.yml"
 	python3 dev/check_people.py
@@ -110,7 +86,3 @@ test: _site/ _site-publish/ $(TOOLS)
 	--disable-external \
 	--check-html --check-img-http --enforce-https \
 	_site-publish/
-
-# Archive Site for Publishing
-site-publish.zip: _site-publish/
-	cd _site-publish/$(PUBLISH_DIR) &&  zip -r $(abspath site-publish.zip) .

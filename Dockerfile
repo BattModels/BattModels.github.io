@@ -6,7 +6,8 @@ run apt-get update && apt-get install -y --no-install-recommends \
     gcc \
     git \
     make \
-    g++
+    g++ \
+    curl
 
 # Setup environment
 RUN mkdir -p /opt/env

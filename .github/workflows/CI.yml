@@ -1,5 +1,21 @@
 name: CI
-on: [push, pull_request]
+on:
+  # Runs on pushes targeting the default branch
+  push:
+  pull_request:
+
+  # Release new blog posts daily at 9am EST
+  schedule:
+  - cron: 0 14 * * *
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
   build:
@@ -12,10 +28,10 @@ jobs:
         with:
           ruby-version: 3
           bundler-cache: true
-      - uses: actions/setup-python@v2
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - uses: actions/cache@v2
+      - uses: actions/cache@v4
         with:
           path: ~/.cache/pip
           key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
