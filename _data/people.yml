@@ -59,7 +59,8 @@ amyao:
     role: phd
     image: img/people/amyao.png
     bio: Mechanical Engineering
-    email: amyao [at] cmu [dot] edu
+    webpage: "https://websites.umich.edu/~amyao/"
+    email: amyao [at] umich [dot] edu
 
 changwex:
     display_name: "Changwen Xu"
