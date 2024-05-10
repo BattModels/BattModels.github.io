@@ -38,7 +38,7 @@ Short news should have the following traits
     - Primary goal is linking out to other sites. Explanatory detail should be avoided.
 
 - Don't: link [here](www.example.com), Do: Read our [article](www.example.com)
-- Follow [CMU Brand Guidelines](https://www.cmu.edu/brand/brand-guidelines/web.html)
+- Follow [UM Brand Guidelines](https://branding.med.umich.edu/)
 
 ---
 

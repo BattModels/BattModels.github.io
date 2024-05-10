@@ -1,4 +1,4 @@
-name: Viswanathan Research Group @CMU
+name: Electrochemical Energy Group
 url: https://eeg.engin.umich.edu
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
@@ -19,8 +19,8 @@ roles:
 #    name: Research Staff
   - key: phd
     name: Doctoral Students
-  - key: masters
-    name: Master's Students
+#  - key: masters
+#    name: Master's Students
   - key: ugrad
     name: Undergraduate Students
   - key: alumni-masters
