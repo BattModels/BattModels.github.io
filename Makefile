@@ -46,14 +46,6 @@ _site/ : $(BIB_FILES) $(SRC) $(TOOLS)
 	bundle exec jekyll build
 	touch $@
 
-# Build target for publishing to AWPS
-PUBLISH_DIR ?= /me/venkatgroup
-_site-publish/ : $(BIB_FILES) $(SRC) $(TOOLS)
-	rm -rf $@
-	JEKYLL_ENV=production \
-	bundle exec jekyll build -d $(join $@, $(PUBLISH_DIR)) -b $(PUBLISH_DIR)
-	touch $@
-
 # Build and serve the site for viewing locally
 # Note: This will update most pages as you edit them, except for ones generated
 # externally to Jekyll. (Think Biblography pages). You can regenerate those, but
@@ -68,21 +60,15 @@ serve: _site/ Gemfile.lock
 		--port $(SERVE_PORT) --host $(SERVE_HOST)
 
 # Run test on the website using htmlproofer
-test: _site/ _site-publish/ $(TOOLS)
+test: _site/ $(TOOLS)
 	@echo "Running pre-commit"
 	# pre-commit run -a
 
 	@echo "Checking _data/people.yml"
 	python3 dev/check_people.py
 
-	@echo "Checking preview version"
+	@echo "Checking links"
 	bundle exec htmlproofer \
 	--disable-external \
 	--check-html --check-img-http --enforce-https \
 	_site
-
-	@echo "Checking published version"
-	bundle exec htmlproofer \
-	--disable-external \
-	--check-html --check-img-http --enforce-https \
-	_site-publish/
