@@ -1,3 +1,4 @@
 bibble
 pre-commit
 pyyaml
+setuptools==70.1.0
