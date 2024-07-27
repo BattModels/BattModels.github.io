@@ -10,6 +10,6 @@ zoom:
 ---
 
 
-Please join us for {% person mphuthi 's %} Ph.D. defense on {{ page.when }} in {{ page.where }} or via [Zoom]!
+Please join us for {% person mkphuthi 's %} Ph.D. defense on {{ page.when }} in {{ page.where }} or via [Zoom]!
 
 [Zoom]: {{ page.zoom.link }}
