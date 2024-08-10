@@ -112,6 +112,7 @@ mbabar:
     display_name: "Mohammad Babar"
     role: phd
     image: img/people/mbabar.jpg
+    webpage: "https://mbabar09.github.io/"
     bio: Mechanical Engineering
     email: mbabar [at] andrew [dot] cmu [dot] edu
 
