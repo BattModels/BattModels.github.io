@@ -11,6 +11,6 @@ zoom:
 ---
 
 
-Please join us for {% person mdbabar 's %} Ph.D. defense on {{ page.when }} in {{ page.where }} or via [Zoom]!
+Please join us for {% person mbabar 's %} Ph.D. defense on {{ page.when }} in {{ page.where }} or via [Zoom]!
 
 [Zoom]: {{ page.zoom.link }}
