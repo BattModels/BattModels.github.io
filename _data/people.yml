@@ -108,22 +108,6 @@ mkphuthi:
     bio: Mechanical Engineering
     email: mkphuthi [at] umich [dot] edu
 
-mbabar:
-    display_name: "Mohammad Babar"
-    role: phd
-    image: img/people/mbabar.jpg
-    webpage: "https://mbabar09.github.io/"
-    bio: Mechanical Engineering
-    email: mbabar [at] andrew [dot] cmu [dot] edu
-
-shangzhu:
-  display_name: "Shang Zhu"
-  role: phd
-  image: img/people/shangzhu.jpeg
-  bio: Mechanical Engineering
-  webpage: "https://www.linkedin.com/in/shang-zhu-0935a4153/"
-  email: shangzhu [at] andrew [dot] cmu [dot] edu
-
 tz4:
     display_name: "Tianyi Zhang"
     role: phd
@@ -213,7 +197,7 @@ eannevel:
     image: img/people/eannevel.jpg
     webpage: "https://scholar.google.com/citations?user=1PBVqewAAAAJ&hl=en"
     email: "eannevel [at] andrew [dot] cmu [dot] edu"
-    bio: Postdoctoral Research Associate, Mechanical Engineering
+    bio: Co-Founder & CEO at Physics Inverted Materials
 
 mguttenb:
     display_name: "Matt Guttenberg"
@@ -238,7 +222,7 @@ vikram:
 azeeshan:
     display_name: "Zeeshan Ahmad"
     role: alumni-phd
-    bio: Postdoctoral Scholar at University of Chicago
+    bio: Postdoctoral Scholar at the University of Chicago
     email: "azeeshan [at] alumni [dot] cmu [dot] edu"
     webpage: https://ahzeeshan.github.io/
 
@@ -247,7 +231,7 @@ ghouchin:
     role: alumni-phd
     webpage: "https://andrew.cmu.edu/~ghouchin"
     email: ghouchin [at] alumni [dot] cmu [dot] edu
-    bio: Co-Founder of CHEMent
+    bio: Co-Founder of chement
 
 dkrishn1:
     display_name: "Dilip Krishnamurthy"
@@ -266,7 +250,7 @@ ovinogra:
 yuminz:
     display_name: "Yumin Zhang"
     role: alumni-phd
-    bio: Battery Materials Simulation Scientist, ByteDance
+    bio: AI4S Scientist at SES AI
     email: yuminz [at] alumni [dot] cmu [dot] edu
 
 aniruddh:
@@ -280,6 +264,7 @@ ssripad:
     role: alumni-phd
     email: ssripad [at] alumni [dot] cmu [dot] edu
     webpage: "https://andrew.cmu.edu/user/ssripad/"
+    bio: Co-Founder of And Battery Aero
 
 vventuri:
     display_name: "Victor Venturi"
@@ -298,7 +283,7 @@ hparks:
 venkatek:
     display_name: "Venkatesh Krishnamurthy"
     role: alumni-phd
-    bio: Senior Engineer, Our Next Energy
+    bio: Senior Reliability Engineer at Tesla
     email: venkatek [at] andrew [dot] cmu [dot] edu
 
 ardave:
@@ -306,12 +291,13 @@ ardave:
     role: alumni-phd
     email: ardave [at] cmu [dot] edu
     webpage: "https://scholar.google.com/citations?user=G4sH0egAAAAJ&hl=en"
+    bio: Stratus Materials
 
 varunshankar:
     display_name: "Varun Shankar"
     role: alumni-phd
     image: img/people/varunshankar.jpg
-    bio: Mechanical Engineering
+    bio: Co-Founder at Physics Inverted Materials
     email: varunshankar [at] cmu [dot] edu
 
 abills:
@@ -326,9 +312,25 @@ lkavalsk:
     display_name: "Lance Kavalsky"
     role: alumni-phd
     image: img/people/lkavalsk.jpg
-    bio: Postdoctoral Researcher at University of Wisconsin-Madison
+    bio: Postdoctoral Researcher at the University of Wisconsin-Madison
     webpage: "https://lancekavalsky.github.io/"
     email: lkavalsk [at] andrew [dot] cmu [dot] edu
+
+shangzhu:
+  display_name: "Shang Zhu"
+  role: alumni-phd
+  image: img/people/shangzhu.jpeg
+  bio: AI Researcher at Together AI
+  webpage: "https://www.linkedin.com/in/shang-zhu-0935a4153/"
+  email: shangzhu [at] andrew [dot] cmu [dot] edu
+
+mbabar:
+    display_name: "Mohammad Babar"
+    role: alumni-phd
+    image: img/people/mbabar.jpg
+    webpage: "https://mbabar09.github.io/"
+    bio: Mechanical Engineering
+    email: mbabar [at] andrew [dot] cmu [dot] edu
 
 # masters, these ones are alphabetical currently
 
