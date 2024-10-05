@@ -79,6 +79,15 @@ chenyanh:
     email: "chenyanh [at] andrew [dot] cmu [dot] com"
     bio: Mechanical Engineering
 
+cjhuey:
+    display_name: "CJ Huey"
+    role: phd
+    image: img/people/cjhuey.jpg
+    webpage: "https://www.linkedin.com/in/carolyn-huey-3018b6202/"
+    email: "cjhuey [at] umich [dot] edu"
+    bio: Aerospace Engineering
+
+
 hancheng2000:
     display_name: "Hancheng Zhao"
     role: phd
