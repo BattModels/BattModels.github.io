@@ -153,6 +153,15 @@ hongshuh:
     bio: Mechanical Engineering
     webpage: https://www.linkedin.com/in/hongshuo-huang/
     email: hongshuh [at] umich [dot] edu
+
+aneeshs:
+    display_name: "Aneesh Srivatsa"
+    role: phd
+    image: img/people/aneeshs.jpg
+    webpage: "www.linkedin.com/in/aneesh-srivatsa"
+    email: "aneeshs [at] umich [dot] edu"
+    bio: Aerospace Engineering
+
 # COMMENCE ALUMNI SECTION
 
 # first postdocs, chronological
