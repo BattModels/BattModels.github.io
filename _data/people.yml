@@ -109,14 +109,6 @@ jiankunp:
     bio: Mechanical Engineering
     email: jiankunp [at] andrew [dot] cmu [dot] edu
 
-mkphuthi:
-    display_name: "Mgcini Keith Phuthi"
-    role: phd
-    image: img/people/mkphuthi.jpg
-    webpage: https://sites.google.com/umich.edu/mgcinikeithphuthi/about
-    bio: Mechanical Engineering
-    email: mkphuthi [at] umich [dot] edu
-
 tz4:
     display_name: "Tianyi Zhang"
     role: phd
@@ -356,6 +348,14 @@ mbabar:
     webpage: "https://mbabar09.github.io/"
     bio: General Motors
     email: mbabar [at] andrew [dot] cmu [dot] edu
+
+mkphuthi:
+    display_name: "Mgcini Keith Phuthi"
+    role: phd
+    image: img/people/mkphuthi.jpg
+    webpage: https://sites.google.com/umich.edu/mgcinikeithphuthi/about
+    bio: Postdoctoral Researcher at UC San Diego
+    email: mkphuthi [at] umich [dot] edu
 
 # masters, these ones are alphabetical currently
 
