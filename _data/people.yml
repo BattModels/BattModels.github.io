@@ -102,12 +102,12 @@ hongyili:
     bio: Mechanical Engineering
     email: hongyili [at] andrew [dot] cmu [dot] edu
 
-jiankunp:
-    display_name: "Jiankun (Kian) Pu"
+kianpu:
+    display_name: "J. Kian Pu"
     role: phd
-    image: img/people/jiankunp.jpg
+    image: img/people/kianpu.jpg
     bio: Mechanical Engineering
-    email: jiankunp [at] andrew [dot] cmu [dot] edu
+    email: kianpu [at] umich [dot] edu
 
 tz4:
     display_name: "Tianyi Zhang"
