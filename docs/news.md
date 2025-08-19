@@ -10,8 +10,11 @@ icon: newspaper-o
 
 ---
 
-Put Markdown formatted news content here
+Put Markdown-formatted news content here
 ```
+
+> The date in the filename (`YYYY-MM-DD`) determines when the post appears in the news feed.  
+> If the date is in the future, the post will not appear until that date (which is usually not what you want).
 
 Replace `icon` with an appropriate selection from the table below
 
