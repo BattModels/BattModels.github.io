@@ -10,7 +10,7 @@ Welcome to the team! As a quick order of business, let's get you added to the we
     - [Connecting to GitHub from git](https://docs.github.com/en/get-started/quickstart/set-up-git#authenticating-with-github-from-git)
 3) Clone the website: `git clone https://github.com/BattModels/group-website.git`
 4) Open `_data/people.yml` in the newly created `group-website` folder
-5) Add a small (<100 Kb) headshot here: `img/people/andrewid.png`
+5) Add a small (<100 Kb) headshot here: `img/people/uniqname.png`
     - If your headshot is too large, try compressing it with an [online tool](https://imagecompressor.com/)
     - Aspect ratio should be 1:1 with the head centered in the image ([Example](https://github.com/BattModels/group-website/blob/main/img/people/venkvis.png))
 
@@ -22,7 +22,7 @@ Welcome to the team! As a quick order of business, let's get you added to the we
     - Create a new branch: `git checkout -b add_john_doe`
     - Add files to the staging area with `git add`
         - `git add _data/people.yml`
-        - `git add img/people/andrewid.png`
+        - `git add img/people/uniqname.png`
     - Commit the staged changes: `git commit -m "Adding John Doe's Info"`
     - Push the commit to Githib with `git push -u origin add_john_doe`
 
@@ -39,12 +39,12 @@ Welcome to the team! As a quick order of business, let's get you added to the we
 ## Entry Format
 
 ```yaml
-your_andrew_id:
+your_uniqname:
     display_name: "John Doe"
     role: staff
-    image: img/people/your_andrew_id.png
+    image: img/people/your_uniqname.png
     webpage: "www.john_doe_awesome_site.com"
-    email: "jdoe [at] andrew [dot] cmu [dot] com"
+    email: "jdoe [at] umich [dot] edu"
     bio: Current Position
 ```
 
