@@ -27,9 +27,9 @@ Welcome to the team! As a quick order of business, let's get you added to the we
     - Push the commit to Githib with `git push -u origin add_john_doe`
 
 6) Open a [pull request on Github][pr]
-    - If this is your first commit, slack @awadell1 to approve running CI ([GitHub will ask if needed](https://docs.github.com/en/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks))
+    - If this is your first commit, slack @abhutani or @amalss to approve running CI ([GitHub will ask if needed](https://docs.github.com/en/actions/managing-workflow-runs/approving-workflow-runs-from-public-forks))
     - If all [checks pass](https://github.com/BattModels/group-website/actions/workflows/CI.yml), [merge your pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/merging-a-pull-request)
-    - Otherwise, try to [fix the issues](1) or [ask for help](2)
+    - Otherwise, try to fix the issues and ask for help
 
 7) Congrats on making your first pull request in the group!
 
