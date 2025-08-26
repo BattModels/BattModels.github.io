@@ -95,6 +95,13 @@ cjhuey:
     email: "cjhuey [at] umich [dot] edu"
     bio: Aerospace Engineering
 
+eugenesk:
+    display_name: "Eugene Seok"
+    role: phd
+    image: img/people/eugenesk.jpg
+    webpage: "https://www.linkedin.com/in/eugene-seok-7b9709265/"
+    email: "eugenesk [at] umich [dot] edu"
+    bio: Materials Science and Engineering
 
 hancheng2000:
     display_name: "Hancheng Zhao"
