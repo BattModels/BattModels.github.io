@@ -1,5 +1,7 @@
 # On-Boarding
 
+## Add Information to Website
+
 Welcome to the team! As a quick order of business, let's get you added to the website!
 
 > All references to John Doe are for illustration. Please use
@@ -36,7 +38,7 @@ Welcome to the team! As a quick order of business, let's get you added to the we
 [1]: https://github.com/BattModels/group-website/blob/main/docs/making_changes.md#status-checks
 [2]: https://github.com/BattModels/group-website/issues
 
-## Entry Format
+### Entry Format
 
 ```yaml
 your_uniqname:
@@ -49,7 +51,7 @@ your_uniqname:
 ```
 
 
-### Roles
+#### Roles
 
 We define several roles (Full List is in `_config.yml`), but you probably want
 one of the following:
@@ -65,7 +67,7 @@ one of the following:
 [BattModels]: https://github.com/BattModels
 [pr]: https://github.com/BattModels/group-website/pulls
 
-### Personal Website
+#### Personal Website
 
 Common websites to link to:
 
@@ -75,10 +77,18 @@ Common websites to link to:
 
 If you do not have a website, please omit this entry. You are always welcome to add one later.
 
-### Bio
+#### Bio
 
 For your bio enter your current title, omitting your educational level. For
 example, a P.h.D student in Mechanical Engineering, would put "Mechanical
 Engineer".
 
 If you have already graduated, you may include your educational level if desired.
+
+
+# Access to HPC Resources
+
+Fill [this](https://teamdynamix.umich.edu/TDClient/30/Portal/Requests/ServiceDet?ID=42) out.
+- **College or Department:** Engineering
+- **Please describe… :** Access to Viswanathan cluster for ….
+- **The ARC Services I need:** “Great Lakes” and “Lighthouse”
