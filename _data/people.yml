@@ -10,14 +10,6 @@ venkvis:
 
 # Postdocs, ordered by seniority at present
 
-robyg:
-    display_name: "Roby Gauthier"
-    role: postdoc
-    image: img/people/robyg.jpg
-    webpage: "https://scholar.google.com/citations?hl=en&user=Tv6LOuUAAAAJ"
-    email: "robyg [at] andrew [dot] cmu [dot] com"
-    bio: Postdoctoral Research Associate, Mechanical Engineering
-
 andreli:
     display_name: "Andrew B. Li"
     role: postdoc
@@ -38,14 +30,6 @@ dsimat:
 
 
 # phd students, currently alphabetical
-
-awadell:
-    display_name: "Alex Wadell"
-    role: phd
-    image: img/people/awadell.jpg
-    bio: Mechanical Engineering
-    email: awadell [at] umich [dot] edu
-    webpage: https://www.linkedin.com/in/alexiuswadell/
 
 amalss:
     display_name: "Amal S Sebastian"
@@ -70,14 +54,6 @@ anupsa:
     bio: Aerospace Engineering
     email: anupsa [at] umich [dot] edu
     webpage: "https://www.linkedin.com/in/anupsa-swain/"
-
-amyao:
-    display_name: "Archie Mingze Yao"
-    role: phd
-    image: img/people/amyao.png
-    bio: Mechanical Engineering
-    webpage: "https://websites.umich.edu/~amyao/"
-    email: amyao [at] umich [dot] edu
 
 changwex:
     display_name: "Changwen Xu"
@@ -125,13 +101,6 @@ hongyili:
     image: img/people/hongyili.jpg
     bio: Mechanical Engineering
     email: hongyili [at] andrew [dot] cmu [dot] edu
-
-kianpu:
-    display_name: "J. Kian Pu"
-    role: phd
-    image: img/people/kianpu.jpg
-    bio: Mechanical Engineering
-    email: kianpu [at] umich [dot] edu
 
 tz4:
     display_name: "Tianyi Zhang"
@@ -185,7 +154,7 @@ aneeshs:
 dongzhr:
     display_name: "Dong Zhang"
     role: alumni-postdoc
-    bio: Assitant Professor, University of Oklahoma
+    bio: Assistant Professor, University of Oklahoma
 
 abhishek:
     display_name: "Abhishek Khetan"
@@ -241,11 +210,19 @@ eannevel:
     bio: Co-Founder & CEO at Physics Inverted Materials
 
 mguttenb:
-    display_name: "Matt Guttenberg"
+    display_name: "Matthew Guttenberg"
     role: alumni-postdoc
-    bio: founder, INCEPTS
+    bio: Founder, INCEPTS
     email: mguttenb [at] alumni [dot] cmu [dot] edu
     webpage: "https://www.linkedin.com/in/matthew-guttenberg/"
+
+robyg:
+    display_name: "Roby Gauthier"
+    role: alumni-postdoc
+    image: img/people/robyg.jpg
+    webpage: "https://scholar.google.com/citations?hl=en&user=Tv6LOuUAAAAJ"
+    email: "robyg [at] andrew [dot] cmu [dot] com"
+    bio: Research Scientist, Carnegie Mellon University
 
 # then phd, I think these are chronological
 
@@ -375,11 +352,34 @@ mbabar:
 
 mkphuthi:
     display_name: "Mgcini Keith Phuthi"
-    role: phd
+    role: alumni-phd
     image: img/people/mkphuthi.jpg
     webpage: https://sites.google.com/umich.edu/mgcinikeithphuthi/about
     bio: Postdoctoral Researcher at UC San Diego
     email: mkphuthi [at] umich [dot] edu
+
+amyao:
+    display_name: "Archie Mingze Yao"
+    role: alumni-phd
+    image: img/people/amyao.png
+    bio: Advanced AI Engineer at CATL
+    webpage: "https://websites.umich.edu/~amyao/"
+    email: amyao [at] umich [dot] edu
+
+awadell:
+    display_name: "Alex Wadell"
+    role: alumni-phd
+    image: img/people/awadell.jpg
+    bio: AI4Science Postdoctoral Researcher at LANL
+    email: awadell [at] umich [dot] edu
+    webpage: https://www.linkedin.com/in/alexiuswadell/
+
+kianpu:
+    display_name: "J. Kian Pu"
+    role: alumni-phd
+    image: img/people/kianpu.jpg
+    bio: ML Scientist at Feon Energy
+    email: kianpu [at] umich [dot] edu
 
 # masters, these ones are alphabetical currently
 
