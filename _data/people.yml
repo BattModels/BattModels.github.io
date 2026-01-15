@@ -10,14 +10,6 @@ venkvis:
 
 # Postdocs, ordered by seniority at present
 
-robyg:
-    display_name: "Roby Gauthier"
-    role: postdoc
-    image: img/people/robyg.jpg
-    webpage: "https://scholar.google.com/citations?hl=en&user=Tv6LOuUAAAAJ"
-    email: "robyg [at] andrew [dot] cmu [dot] com"
-    bio: Postdoctoral Research Associate, Mechanical Engineering
-
 andreli:
     display_name: "Andrew B. Li"
     role: postdoc
@@ -218,11 +210,19 @@ eannevel:
     bio: Co-Founder & CEO at Physics Inverted Materials
 
 mguttenb:
-    display_name: "Matt Guttenberg"
+    display_name: "Matthew Guttenberg"
     role: alumni-postdoc
-    bio: founder, INCEPTS
+    bio: Founder, INCEPTS
     email: mguttenb [at] alumni [dot] cmu [dot] edu
     webpage: "https://www.linkedin.com/in/matthew-guttenberg/"
+
+robyg:
+    display_name: "Roby Gauthier"
+    role: alumni-postdoc
+    image: img/people/robyg.jpg
+    webpage: "https://scholar.google.com/citations?hl=en&user=Tv6LOuUAAAAJ"
+    email: "robyg [at] andrew [dot] cmu [dot] com"
+    bio: Research Scientist, Carnegie Mellon University
 
 # then phd, I think these are chronological
 
