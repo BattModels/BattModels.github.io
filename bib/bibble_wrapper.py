@@ -5,23 +5,13 @@ import re
 import subprocess
 import sys
 
-import latexcodec  # noqa: F401 - registers 'latex' codec
-
-
-def decode_latex_match(match):
-    """Decode a single LaTeX escape sequence."""
-    latex_seq = match.group(0)
-    try:
-        decoded = latex_seq.encode("ascii").decode("latex")
-        return re.sub(r"[{}]", "", decoded)
-    except (UnicodeDecodeError, ValueError):
-        return latex_seq
+from pylatexenc.latex2text import LatexNodes2Text
 
 
 def clean_latex(text):
     """Convert LaTeX special characters to Unicode and strip BibTeX braces."""
-    pattern = r"\{?\\['\"`^~=.cucvHtdb]\s*\{?\\?[a-zA-Z]\}?\}?"
-    text = re.sub(pattern, decode_latex_match, text)
+    converter = LatexNodes2Text()
+    text = converter.latex_to_text(text)
     text = re.sub(r"\\relax\s*", "", text)
     text = re.sub(r"[{}]", "", text)
     return text
