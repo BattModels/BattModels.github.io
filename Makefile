@@ -9,7 +9,7 @@ clean:
 # Build the site
 build: _site/
 
-BIBBLE = bibble
+BIBBLE = /Users/anoushka/anaconda3/bin/python bib/bibble_wrapper.py
 
 # Delete targets that fail to build
 .DELETE_ON_ERROR:
