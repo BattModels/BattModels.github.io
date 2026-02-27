@@ -1,35 +1,35 @@
 # Admin owns all non-content files
-.github/ @awadell1
-_includes/ @awadell1
-_layouts/ @awadell1
-_plugins/ @awadell1
-bib/publications.tmpl @awadell1
-css/ @awadell1
-dev/ @awadell1
-docs/ @awadell1
-files/ @awadell1
-js/ @awadell1
+.github/ @awadell1 @anoushka2000 @amalss18
+_includes/ @awadell1 @anoushka2000 @amalss18
+_layouts/ @awadell1 @anoushka2000 @amalss18
+_plugins/ @awadell1 @anoushka2000 @amalss18
+bib/publications.tmpl @awadell1 @anoushka2000 @amalss18
+css/ @awadell1 @anoushka2000 @amalss18
+dev/ @awadell1 @anoushka2000 @amalss18
+docs/ @awadell1 @anoushka2000 @amalss18
+files/ @awadell1 @anoushka2000 @amalss18
+js/ @awadell1 @anoushka2000 @amalss18
 
 # Templates for pages
-404.md @awadell1
-blog.html @awadell1
-index.html @awadell1
-patents.html @awadell1
-people.html @awadell1
-publications.html @awadell1
-software.html @awadell1
-sponsors.html @awadell1
+404.md @awadell1 @anoushka2000 @amalss18
+blog.html @awadell1 @anoushka2000 @amalss18
+index.html @awadell1 @anoushka2000 @amalss18
+patents.html @awadell1 @anoushka2000 @amalss18
+people.html @awadell1 @anoushka2000 @amalss18
+publications.html @awadell1 @anoushka2000 @amalss18
+software.html @awadell1 @anoushka2000 @amalss18
+sponsors.html @awadell1 @anoushka2000 @amalss18
 
 # Build Scripts etc.
-LICENSE @awadell1
-Makefile @awadell1
-_config.yml @awadell1
-Gemfile @awadell1
+LICENSE @awadell1 @anoushka2000 @amalss18
+Makefile @awadell1 @anoushka2000 @amalss18
+_config.yml @awadell1 @anoushka2000 @amalss18
+Gemfile @awadell1 @anoushka2000 @amalss18
 
 # Admin owns documentation files
-docs/ @awadell1 @awadell1
-README.md @awadell1
-code.md @awadell1
+docs/ @awadell1 @anoushka2000 @amalss18
+README.md @awadell1 @anoushka2000 @amalss18
+code.md @awadell1 @anoushka2000 @amalss18
 
 # Prefer Markdown usage in posts and projects
-*.html @awadell1
+*.html @awadell1 @anoushka2000 @amalss18
