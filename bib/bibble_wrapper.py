@@ -22,6 +22,7 @@ def clean_latex(text):
     """Convert LaTeX special characters to Unicode and strip BibTeX braces."""
     pattern = r"\{?\\['\"`^~=.cucvHtdb]\s*\{?\\?[a-zA-Z]\}?\}?"
     text = re.sub(pattern, decode_latex_match, text)
+    text = re.sub(r"\\relax\s*", "", text)
     text = re.sub(r"[{}]", "", text)
     return text
 
