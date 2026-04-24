@@ -22,18 +22,18 @@ USDOT:
     full_name: US Department of Transportation
     url: https://www.transportation.gov
     logo: /img/sponsors/usdot.png
-MFI:
-    full_name: Manufacturing Futures Institute
-    url: https://engineering.cmu.edu/mfi/index.html
-    logo: /img/sponsors/mfi.png
-PITA:
-    full_name: Pennsylvania Infrastructure Technology Alliance
-    url: https://pitapa.org
-    logo: /img/sponsors/pita.png
-Scott Institute:
-    full_name: Scott Institute
-    url: https://www.cmu.edu/energy/
-    logo: /img/sponsors/scott.png
+# MFI:
+#     full_name: Manufacturing Futures Institute
+#     url: https://engineering.cmu.edu/mfi/index.html
+#     logo: /img/sponsors/mfi.png
+# PITA:
+#     full_name: Pennsylvania Infrastructure Technology Alliance
+#     url: https://pitapa.org
+#     logo: /img/sponsors/pita.png
+# Scott Institute:
+#     full_name: Scott Institute
+#     url: https://www.cmu.edu/energy/
+#     logo: /img/sponsors/scott.png
 Sloan Foundation:
     full_name: Sloan Foundation
     url: https://sloan.org
@@ -45,10 +45,10 @@ PRF:
     full_name: ACS Petroleum Research Fund
     url: https://www.acs.org/content/acs/en/funding-and-awards/grants/prf.html
     logo: /img/sponsors/prf.png
-A3:
-    full_name: Acubed
-    url: https://acubed.airbus.com
-    logo: /img/sponsors/a3.png
+# A3:
+#     full_name: Acubed
+#     url: https://acubed.airbus.com
+#     logo: /img/sponsors/a3.png
 Apple:
     full_name: Apple
     url : https://www.apple.com
@@ -81,16 +81,27 @@ VW:
     full_name: Volkswagen
     url: https://www.vw.com
     logo: /img/sponsors/vw.png
-zunum:
-    full_name: Zunum Aero
-    url: https://zunum.aero
-    logo: /img/sponsors/zunum.png
+# zunum:
+#     full_name: Zunum Aero
+#     url: https://zunum.aero
+#     logo: /img/sponsors/zunum.png
 meta:
     full_name: Meta Research
     url: https://research.facebook.com
     logo: /img/sponsors/meta.svg
-
 incite:
     full_name: US DOE's INCITE Program
     url: https://doeleadershipcomputing.org
     logo: /img/sponsors/incite_logo.png
+micde:
+    full_name: Michigan Institute for Computational Discovery and Engineering
+    url: https://micde.umich.edu/
+    logo: /img/sponsors/micde.png
+mdot:
+    full_name: Michigan Department of Transportation
+    url: https://www.michigan.gov/mdot
+    logo: /img/sponsors/mdot.jpg
+lanl:
+    full_name: Los Alamos National Lab
+    url: https://www.lanl.gov/
+    logo: /img/sponsors/lanl.jpeg

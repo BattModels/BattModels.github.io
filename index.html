@@ -3,30 +3,10 @@ layout: default
 title: Home
 notitle: true
 
-# groups of columns of {roles: list, width: num, image: bool}
-role-tables:
-- - roles: [pi, postdoc, masters, staff]
-    width: 4
-    image: true
-  - roles: [phd]
-    width: 8
-    image: true
-- - roles: [alumni-postdoc, alumni-phd, alumni-masters, alumni-ugrad]
-    width: 9
-    image: false
-
 ---
 
-<div class="jumbotron">
-  <h1>Venkat Viswanathan's Electrochemical Energy Group at the University of Michigan</h1>
+{% include paper-image-strip.html %}
 
-  <p>
-    Vision: Invent and Optimize Materials, Processes and Devices to Accelerate the Transition to Sustainable Transportation, Aviation, Chemicals and Fuels.
-  </p>
-
-  <img src="img/group-photo.jpg" alt="Group Photo" class="center">
-
-</div>
 
 <div id="research">
     <section>
@@ -41,36 +21,12 @@ role-tables:
     </section>
 </div>
 
-<div id="people">
-    <h2>People</h2>
-    {% for role-table in page.role-tables %}
-        <section class="people row justify-content-between">
-            {% for role-column in role-table %}
-                <div class="col-md-{{ role-column.width }}">
-                    {% for role in role-column.roles %}
-                        {% include role-people.html role=role image=role-column.image %}
-                    {% endfor %}
-                </div>
-            {% endfor %}
-        </section>
-    {% endfor %}
-</div>
-
-<section>
-  <div id="community">
-  <h2>Community</h2>
-  <p>Our group is involved in several efforts to spur community-building and research dissemination efforts.</p>
-
-  <p>Prof. Viswanathan runs the Battery Modeling Webinar Series (BMWS). Find more information <a href="https://www.andrew.cmu.edu/user/venkatv/bmws.html">here</a>.</p>
-  </div>
-</section>
-
 <section>
     <div id="news">
     <h2>News</h2>
-    <ul class="news list-unstyled">
+    <ul class="news home-news list-unstyled">
         {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
+            {% include news-item.html item=post show_image=false %}
         {% endfor %}
     </ul>
     {% assign numposts = site.posts | size %}

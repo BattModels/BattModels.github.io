@@ -2,31 +2,48 @@
 layout: default
 title: People
 
-picture-role-groups:
-- {roles: [pi, postdoc, staff, masters, ugrad], width: 5}
-- {roles: [phd], width: 4}
+people-sections:
+- title: Principal Investigator
+  roles: [pi]
+- title: Postdoctoral Researchers
+  roles: [postdoc]
+- title: Doctoral Students
+  roles: [phd]
 
-no-picture-role-groups:
-- {roles: [alumni-postdoc], width: 9}
+alumni-roles: [alumni-postdoc, alumni-phd, alumni-masters, alumni-ugrad, alumni]
 
 ---
 
-<section class="people row justify-content-between">
-    {% for role-group in page.picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
-            {% for role in role-group.roles %}
-                {% include role-people.html role=role image=true %}
-            {% endfor %}
-        </div>
-    {% endfor %}
-</section>
+<img src="{{ site.baseurl }}/img/group-photo.jpg"
+     alt="Electrochemical Energy Group"
+     class="people-hero-image">
 
-<section class="people row justify-content-between">
-    {% for role-group in page.no-picture-role-groups %}
-        <div class="col-md-{{ role-group.width }}">
-            {% for role in role-group.roles %}
-                {% include role-people.html role=role image=false %}
+{% for section in page.people-sections %}
+<section class="people-section">
+    <h2 class="people-section-title">{{ section.title }}</h2>
+    <div class="people-grid">
+        {% for role in section.roles %}
+            {% for item in site.data.people %}
+                {% assign person = item[1] %}
+                {% if person.role == role %}
+                    {% include person-card.html person=person %}
+                {% endif %}
             {% endfor %}
-        </div>
-    {% endfor %}
+        {% endfor %}
+    </div>
+</section>
+{% endfor %}
+
+<section class="people-section">
+    <h2 class="people-section-title">Alumni</h2>
+    <ul class="alumni-list">
+        {% for role in page.alumni-roles %}
+            {% for item in site.data.people %}
+                {% assign person = item[1] %}
+                {% if person.role == role %}
+                    {% include person-list-item.html person=person %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </ul>
 </section>

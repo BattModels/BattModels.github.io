@@ -1,5 +1,10 @@
 
 {% assign item = include.item %}
+{% if include.show_image == false %}
+{% assign show_image = false %}
+{% else %}
+{% assign show_image = true %}
+{% endif %}
 {% if item.icon %}
 {% assign icon = item.icon %}
 {% assign class = "shortnews" %}
@@ -26,10 +31,10 @@
 {% endcapture %}
 
 <li class="{{ class }}">
-    {% if post.image %}
+    {% if post.image and show_image %}
 
         {% capture img %}
-            <img class="img-fluid d-block mx-auto"
+            <img class="news-thumbnail img-fluid d-block mx-auto"
                  style="{{ post.image_style }}"
                  src="{{ post.image }}">
         {% endcapture %}

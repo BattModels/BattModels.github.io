@@ -48,7 +48,7 @@ navigation:
   - title: Home
     link: /index.html
   - title: People
-    link: /index.html#people
+    link: /people.html
   - title: Research
     link: /index.html#research
   - title: News
@@ -61,5 +61,7 @@ navigation:
     link: /software.html
   - title: Sponsors
     link: /sponsors.html
+  - title: Battery Modeling Webinar
+    link: https://www.andrew.cmu.edu/user/venkatv/bmws.html
 #  - title: Code
 #    link: /code.html

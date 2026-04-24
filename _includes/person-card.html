@@ -1,0 +1,63 @@
+{% assign person = include.person %}
+
+{% case person.role %}
+    {% when "pi" %}
+        {% assign role_label = "Principal Investigator" %}
+    {% when "postdoc" %}
+        {% assign role_label = "Postdoctoral Researcher" %}
+    {% when "phd" %}
+        {% assign role_label = "Doctoral Student" %}
+    {% when "masters" %}
+        {% assign role_label = "Master's Student" %}
+    {% when "staff" %}
+        {% assign role_label = "Research Staff" %}
+    {% when "ugrad" %}
+        {% assign role_label = "Undergraduate Student" %}
+    {% when "alumni-postdoc" %}
+        {% assign role_label = "Postdoc Alumni" %}
+    {% when "alumni-phd" %}
+        {% assign role_label = "PhD Alumni" %}
+    {% when "alumni-masters" %}
+        {% assign role_label = "Master's Alumni" %}
+    {% when "alumni-ugrad" %}
+        {% assign role_label = "Former Undergraduate Student" %}
+    {% else %}
+        {% assign role_label = "Alumni" %}
+{% endcase %}
+
+<article class="people-card">
+    {% if person.image %}
+        <div class="people-card-media">
+            <img class="people-card-image"
+                 alt="{{ person.display_name | escape }}"
+                 title="{{ person.display_name | escape }}"
+                 src="{{ site.baseurl }}/{{ person.image }}">
+        </div>
+    {% else %}
+        <div class="people-card-media people-card-placeholder" aria-hidden="true">
+            {{ person.display_name | slice: 0 }}
+        </div>
+    {% endif %}
+
+    <div class="people-card-body">
+        <h3 class="people-card-name">
+            {% if person.webpage %}
+                <a href="{{ person.webpage | escape }}">{{ person.display_name }}</a>
+            {% else %}
+                {{ person.display_name }}
+            {% endif %}
+        </h3>
+        <p class="people-card-role">{{ role_label }}</p>
+        {% if person.bio %}
+            <p class="people-card-bio">{{ person.bio }}</p>
+        {% endif %}
+        {% if person.email %}
+        <div class="people-card-links">
+            <span class="people-card-email">
+                <span class="fa fa-envelope-o" aria-hidden="true"></span>
+                {{ person.email }}
+            </span>
+        </div>
+        {% endif %}
+    </div>
+</article>
