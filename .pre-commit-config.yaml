@@ -7,7 +7,7 @@ repos:
       - id: check-added-large-files
         args: ['--maxkb=100', '--enforce-all']
         types: ['image']
-        exclude: img/group-photo.jpg
+        exclude: ^(img/group-photo.jpg|img/papers)
       - id: check-yaml
       - id: check-xml
       - id: end-of-file-fixer

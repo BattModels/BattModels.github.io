@@ -1,0 +1,16 @@
+<div class="paper-strip-wrapper">
+  <div class="paper-strip">
+    <div class="paper-strip-track">
+      {% for item in site.data.publication_images %}
+        <a href="{{ item.paperurl }}" target="_blank" class="paper-strip-item" data-title="{{ item.title }}">
+          <img src="{{ site.baseurl }}/{{ item.image }}" alt="{{ item.title }}" loading="lazy">
+        </a>
+      {% endfor %}
+      {% for item in site.data.publication_images %}
+        <a href="{{ item.paperurl }}" target="_blank" class="paper-strip-item" data-title="{{ item.title }}">
+          <img src="{{ site.baseurl }}/{{ item.image }}" alt="{{ item.title }}" loading="lazy">
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>

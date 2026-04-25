@@ -1,0 +1,36 @@
+{% assign person = include.person %}
+
+{% case person.role %}
+    {% when "alumni-postdoc" %}
+        {% assign role_label = "Postdoc Alumni" %}
+    {% when "alumni-phd" %}
+        {% assign role_label = "PhD Alumni" %}
+    {% when "alumni-masters" %}
+        {% assign role_label = "Master's Alumni" %}
+    {% when "alumni-ugrad" %}
+        {% assign role_label = "Former Undergraduate Student" %}
+    {% else %}
+        {% assign role_label = "Alumni" %}
+{% endcase %}
+
+<li class="alumni-list-item">
+    <div class="alumni-list-main">
+        <span class="alumni-list-name">
+            {% if person.webpage %}
+                <a href="{{ person.webpage | escape }}">{{ person.display_name }}</a>
+            {% else %}
+                {{ person.display_name }}
+            {% endif %}
+        </span>
+        <span class="alumni-list-role">{{ role_label }}</span>
+    </div>
+    {% if person.bio %}
+        <div class="alumni-list-bio">{{ person.bio }}</div>
+    {% endif %}
+    {% if person.email %}
+        <div class="alumni-list-email">
+            <span class="fa fa-envelope-o" aria-hidden="true"></span>
+            {{ person.email }}
+        </div>
+    {% endif %}
+</li>

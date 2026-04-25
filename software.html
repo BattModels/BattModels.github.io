@@ -3,37 +3,36 @@ layout: default
 title: Open Source Software
 ---
 
-<table class="table">
-    <tbody>
-        {% for item in site.data.software %}
-        {% assign sw = item[1] %}
-        <tr>
-            {% if sw.image %}
-            <td class = "softwareimage" align=center>
-                <img alt="{{ sw.title }}"
-                     title="{{ sw.title }}"
-                    src="{% link {{ sw.image }} %}"
-                     height=170>
-            </td>
-            <td class="software">
-            {% else %}
-            <td class="software" colspan="2">
-            {% endif %}
+<section class="software-list" aria-label="Open source software">
+    {% for item in site.data.software %}
+    {% assign sw = item[1] %}
+    <article class="software-item{% unless sw.image %} software-item-no-image{% endunless %}">
+        {% if sw.image %}
+        <a class="software-media" href="{{ sw.link|escape }}" aria-label="{{ sw.title|escape }}">
+            <img alt="{{ sw.title|escape }}"
+                 title="{{ sw.title|escape }}"
+                 src="{% link {{ sw.image }} %}">
+        </a>
+        {% endif %}
 
-                <span class="softtitle">
-                    <strong><big><a href="{{ sw.link|escape }}">{{ sw.title|escape }}</a></big></strong>.
-                </span><br />
-                <span class="authors">
-                    <strong>{{ sw.authors|escape }}</strong>.
-                </span>
-                {%- if sw.description %}
-                <span class="note">
-                <br />
-                {{ sw.description|escape }}
-                </span>
+        <div class="software-content">
+            <div class="software-heading">
+                <h2 class="software-title">
+                    <a href="{{ sw.link|escape }}">{{ sw.title|escape }}</a>
+                </h2>
+                {% if sw.year %}
+                <span class="software-year">{{ sw.year }}</span>
                 {% endif %}
-            </td>
-        </tr>
-        {% endfor %}
-    </tbody>
-    </table>
+            </div>
+            <p class="software-authors">
+                <strong>{{ sw.authors|escape }}</strong>.
+            </p>
+            {%- if sw.description %}
+            <p class="software-description">
+                {{ sw.description|escape }}
+            </p>
+            {% endif %}
+        </div>
+    </article>
+    {% endfor %}
+</section>

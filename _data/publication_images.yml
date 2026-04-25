@@ -1,0 +1,30 @@
+# Publication images for the auto-scrolling figure strip
+# Add entries with the paper URL and corresponding image path
+
+- paperurl: 'https://arxiv.org/pdf/2510.18900'
+  image: 'img/papers/scaling.svg'
+  title: 'Foundation Models for Discovery and Exploration in Chemical Space'
+
+- paperurl: "https://www.sciencedirect.com/science/article/pii/S002195172500315X"
+  image: 'img/papers/lithium_nitride_toc.jpg'
+  title: "Lithium nitride (Li3N) formation in lithium-mediated electrochemical ammonia synthesis can be enhanced with the right proton donor"
+
+- paperurl: 'https://arxiv.org/abs/2409.15370'
+  image: 'img/papers/toc_image.svg'
+  title: 'Smirk: An atomically complete tokenizer for molecular foundation models'
+
+- paperurl: "https://pubs.acs.org/doi/full/10.1021/acs.jpcc.5c01078"
+  image: 'img/papers/underpotential.jpeg'
+  title: "Thermodynamic Origin of Li Underpotential and Overpotential Deposition on Current Collectors"
+
+- paperurl: 'https://arxiv.org/abs/2506.17345'
+  image: 'img/papers/scope.png'
+  title: 'CLOUD: A Scalable and Physics-Informed Foundation Model for Crystal Representation Learning'
+
+- paperurl: 'https://arxiv.org/abs/2507.14267'
+  image: 'img/papers/dreams_cover.png'
+  title: 'DREAMS: Density Functional Theory Based Research Engine for Agentic Materials Simulation'
+
+- paperurl: "https://pubs.acs.org/doi/full/10.1021/acs.jpclett.4c01002"
+  image: 'img/papers/compton.jpeg'
+  title: "Modeling Scanning Electrochemical Cell Microscopy (SECCM) in Twisted Bilayer Graphene"
