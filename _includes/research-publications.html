@@ -9,7 +9,7 @@
            rel="noopener">
             {% if paper.image %}
             <span class="research-paper-image">
-                <img src="{{ site.baseurl }}/{{ paper.image }}" alt="" loading="lazy">
+                <img src="{{ site.baseurl }}/{{ paper.image }}" alt="{{ paper.title | escape }}" loading="lazy">
             </span>
             {% endif %}
             <span class="research-paper-content">

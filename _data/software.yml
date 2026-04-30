@@ -1,3 +1,26 @@
+MISTModels:
+  title: MIST
+  link: "https://huggingface.co/mist-models"
+  description: "MIST is a family of molecular foundation models for molecular property prediction."
+  image: /img/software/mist_logo_v0.png
+  year: 2026
+  authors: "Anoushka Bhutani, Alexius Wadell"
+
+SmirkTokenizer:
+  title: Smirk
+  link: "https://eeg.engin.umich.edu/smirk/"
+  description: "Smirk is a chemistry-specific tokenizer that provides complete coverage of the OpenSMILES specification."
+  image: /img/software/smirk-logo.svg
+  year: 2025
+  authors: "Alexius Wadell, Anoushka Bhutani"
+
+ASIMTools:
+  title: Atomic SIMulation Tools
+  link: "https://eeg.engin.umich.edu/asimtools/"
+  description: "A lightweight workflow and simulation manager for reproducible atomistic simulations that can be transferred across environments, calculators and structures on Unix systems. ."
+  year: 2023
+  authors: "Mgcini Keith Phuthi, Emil Annevelink"
+
 BatteryCost:
   title: "BatteryCost.jl"
   link: "https://github.com/BattModels/BatteryCost"
@@ -23,7 +46,6 @@ ChemistryFeaturization:
   year: 2021
   image: /img/software/chemellia.png
   authors: "Rachel Kurchin, Anant Thazhemadam, Sean Sun"
-
 
 
 MHC_DOS:
