@@ -8,19 +8,6 @@ notitle: true
 {% include paper-image-strip.html %}
 
 
-<div id="research">
-    <section>
-        <h2>Research</h2>
-        <div class="card-columns">
-            {% for p in site.projects %}
-                {% if p.status != "inactive" %}
-                    {% include project-card.html project=p %}
-                {% endif %}
-            {% endfor %}
-        </div>
-    </section>
-</div>
-
 <section>
     <div id="news">
     <h2>News</h2>
