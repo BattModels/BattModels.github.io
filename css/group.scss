@@ -17,7 +17,7 @@ body {
     color: $ink;
     background: #fff;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 1.65;
 }
 
@@ -49,11 +49,11 @@ h6 {
 h2 {
     margin-top: 0;
     margin-bottom: 1.25rem;
-    font-size: 1.7rem;
+    font-size: 2.2rem;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.45rem;
 }
 
 p {
@@ -104,7 +104,7 @@ img {
 
 .site-brand-name {
     max-width: 340px;
-    font-size: 1.28rem;
+    font-size: 1.45rem;
     font-weight: 800;
     line-height: 1.15;
     text-transform: uppercase;
@@ -125,7 +125,7 @@ img {
     color: $ink;
     border-bottom: 3px solid transparent;
     border-radius: 0;
-    font-size: 0.98rem;
+    font-size: 1.02rem;
     font-weight: 800;
     line-height: 1.2;
     text-transform: uppercase;
@@ -154,7 +154,7 @@ img {
 
 .page-title {
     margin: 0;
-    font-size: 2.45rem;
+    font-size: 3.25rem;
     line-height: 1.08;
 }
 
@@ -162,7 +162,7 @@ img {
     max-width: 720px;
     margin: 0.9rem 0 0;
     color: $muted;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .page-feature-image {
@@ -198,7 +198,7 @@ section > h2,
     max-width: none;
     margin-bottom: 1rem;
     color: $ink;
-    font-size: 2.55rem;
+    font-size: 3.25rem;
     line-height: 1.08;
     text-align: center;
 }
@@ -206,7 +206,7 @@ section > h2,
 .jumbotron p {
     max-width: none;
     color: $muted;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
 }
 
 .hero-media {
@@ -239,7 +239,7 @@ section > h2,
     max-width: none;
     margin-bottom: 0;
     color: #fff;
-    font-size: 1.25rem;
+    font-size: 1.6rem;
     font-weight: 700;
     line-height: 1.5;
 }
@@ -252,6 +252,163 @@ section > h2,
     margin: 2rem auto 0;
     border-radius: 6px;
     object-fit: cover;
+}
+
+/* Research page */
+.research-page {
+    box-sizing: border-box;
+    width: 100vw;
+    margin-right: calc(50% - 50vw);
+    margin-left: calc(50% - 50vw);
+    padding: 0 clamp(1.5rem, 5vw, 6rem) 1rem;
+}
+
+.research-shell {
+    max-width: 1680px;
+    margin: 0 auto;
+}
+
+.research-heading {
+    box-sizing: border-box;
+    width: 100vw;
+    max-width: none;
+    margin-right: calc(50% - 50vw);
+    margin-bottom: 3rem;
+    margin-left: calc(50% - 50vw);
+    padding-right: clamp(1.5rem, 5vw, 6rem);
+    padding-bottom: 2.5rem;
+    padding-left: clamp(1.5rem, 5vw, 6rem);
+    border-bottom: 1px solid $light-gray;
+}
+
+.research-heading .page-title {
+    max-width: 1680px;
+    margin: 0 auto;
+    letter-spacing: 0;
+}
+
+.research-intro {
+    max-width: none;
+    margin-bottom: 2.5rem;
+    color: $muted;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.research-block {
+    margin-bottom: 5rem;
+}
+
+.research-block h2 {
+    margin-bottom: 0.75rem;
+    padding-bottom: 0;
+    border-bottom: 0;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.research-block-note {
+    max-width: none;
+    margin-bottom: 1.8rem;
+    color: $muted;
+    font-size: 1.35rem;
+    line-height: 1.65;
+}
+
+.research-topic {
+    display: grid;
+    grid-template-columns: minmax(320px, 0.35fr) minmax(0, 1fr);
+    column-gap: clamp(2rem, 5vw, 5rem);
+    row-gap: 0.75rem;
+    padding: 2rem 0;
+    border-top: 1px solid $light-gray;
+}
+
+.research-topic h3 {
+    margin: 0;
+    color: $accent;
+    font-size: 1.45rem;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.research-topic p {
+    margin: 0;
+    color: #4f555b;
+    font-size: 1.3rem;
+    line-height: 1.65;
+}
+
+.research-publications {
+    grid-column: 2 / -1;
+    margin-top: 0;
+    padding: 1rem;
+    border: 1px solid $light-gray;
+    border-radius: 6px;
+    background: $soft-gray;
+}
+
+.research-paper-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0.8rem;
+}
+
+.research-paper {
+    display: grid;
+    grid-template-columns: 88px minmax(0, 1fr);
+    gap: 0.85rem;
+    align-items: center;
+    min-height: 96px;
+    padding: 0.8rem;
+    color: $ink;
+    border: 1px solid $light-gray;
+    border-bottom-color: $light-gray;
+    border-radius: 6px;
+    background: #fff;
+}
+
+.research-paper:hover,
+.research-paper:focus {
+    color: $ink;
+    border-color: rgba($accent, 0.32);
+    background: #fff;
+}
+
+.research-paper-no-image {
+    grid-template-columns: minmax(0, 1fr);
+}
+
+.research-paper-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 88px;
+    height: 72px;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #fff;
+}
+
+.research-paper-image img {
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+    object-fit: contain;
+}
+
+.research-paper-content {
+    min-width: 0;
+}
+
+.research-paper-title {
+    display: block;
+    color: $ink;
+    font-size: 1.27rem;
+    font-weight: 400;
+    line-height: 1.25;
 }
 
 /* News */
@@ -317,16 +474,16 @@ a > .fa {
 
     .card-title {
         margin-bottom: 0.45rem;
-        font-size: 1.12rem;
+        font-size: 1.47rem;
     }
 
     .card-subtitle {
-        font-size: 0.86rem;
+        font-size: 1.19rem;
     }
 
     .card-text {
         color: $muted;
-        font-size: 0.95rem;
+        font-size: 1.27rem;
     }
 
     img {
@@ -371,17 +528,17 @@ a > .fa {
 
     .bio {
         color: $muted;
-        font-size: 0.92rem;
+        font-size: 1.24rem;
     }
 
     .email {
         color: $muted;
-        font-size: 0.85rem;
+        font-size: 1.17rem;
     }
 
     .person-name {
         margin: 0;
-        font-size: 1rem;
+        font-size: 1.37rem;
     }
 }
 
@@ -415,7 +572,7 @@ a > .fa {
     margin-bottom: 1.8rem;
     padding-bottom: 0.75rem;
     border-bottom: 1px solid $light-gray;
-    font-size: 1.55rem;
+    font-size: 1.9rem;
     font-weight: 800;
     text-transform: uppercase;
 }
@@ -468,7 +625,7 @@ a > .fa {
 
 .people-card-body {
     display: flex;
-    min-height: 150px;
+    min-height: 175px;
     flex: 1 1 auto;
     flex-direction: column;
     padding: 0.8rem;
@@ -476,7 +633,7 @@ a > .fa {
 
 .people-card-name {
     margin: 0 0 0.25rem;
-    font-size: 1.08rem;
+    font-size: 1.41rem;
 }
 
 .people-card-name a {
@@ -486,7 +643,7 @@ a > .fa {
 .people-card-role {
     margin: 0 0 0.45rem;
     color: $accent;
-    font-size: 0.74rem;
+    font-size: 1.01rem;
     font-weight: 800;
     line-height: 1.25;
     text-transform: uppercase;
@@ -495,7 +652,7 @@ a > .fa {
 .people-card-bio {
     margin-bottom: 0.6rem;
     color: $muted;
-    font-size: 0.92rem;
+    font-size: 1.24rem;
     line-height: 1.35;
 }
 
@@ -504,7 +661,7 @@ a > .fa {
     gap: 0.2rem;
     margin-top: auto;
     color: $muted;
-    font-size: 0.82rem;
+    font-size: 1.17rem;
     line-height: 1.25;
 }
 
@@ -555,7 +712,7 @@ a > .fa {
 .alumni-list-role {
     flex: 0 0 auto;
     color: $accent;
-    font-size: 0.7rem;
+    font-size: 0.97rem;
     font-weight: 800;
     line-height: 1.3;
     text-transform: uppercase;
@@ -564,14 +721,14 @@ a > .fa {
 .alumni-list-bio,
 .alumni-list-email {
     color: $muted;
-    font-size: 0.9rem;
+    font-size: 1.24rem;
     line-height: 1.45;
     overflow-wrap: anywhere;
 }
 
 .alumni-list-email {
     margin-top: 0.18rem;
-    font-size: 0.82rem;
+    font-size: 1.17rem;
 }
 
 .alumni-list-email .fa {
@@ -660,7 +817,7 @@ svg {
 
 .software-title {
     margin: 0;
-    font-size: 1.35rem;
+    font-size: 1.79rem;
 }
 
 .software-title a {
@@ -674,7 +831,7 @@ svg {
     border: 1px solid rgba($accent, 0.2);
     border-radius: 4px;
     background: $accent-soft;
-    font-size: 0.76rem;
+    font-size: 1.05rem;
     font-weight: 800;
     line-height: 1.2;
 }
@@ -682,7 +839,7 @@ svg {
 .software-authors {
     margin: 0 0 0.5rem;
     color: $ink;
-    font-size: 0.95rem;
+    font-size: 1.29rem;
 }
 
 .software-description {
@@ -692,7 +849,7 @@ svg {
 
 .table {
     border-color: $light-gray;
-    font-size: 0.95rem;
+    font-size: 1.24rem;
 }
 
 .site-footer {
@@ -701,7 +858,7 @@ svg {
     border-top: 1px solid $light-gray;
     background: $soft-gray;
     text-align: center;
-    font-size: 0.85rem;
+    font-size: 1.19rem;
 
     a:link,
     a:visited {
@@ -765,7 +922,7 @@ svg {
 
 @media (max-width: 767.98px) {
     body {
-        font-size: 15px;
+        font-size: 20px;
     }
 
     .site-main {
@@ -775,7 +932,17 @@ svg {
 
     .page-title,
     .jumbotron h1 {
-        font-size: 2rem;
+        font-size: 2.65rem;
+    }
+
+    h2,
+    .research-block h2 {
+        font-size: 1.95rem;
+    }
+
+    h3,
+    .research-topic h3 {
+        font-size: 1.3rem;
     }
 
     .hero-image {
@@ -791,8 +958,43 @@ svg {
     }
 
     .vision-statement p {
-        font-size: 1rem;
+        font-size: 1.27rem;
         line-height: 1.4;
+    }
+
+    .research-heading {
+        margin-bottom: 2rem;
+        padding-bottom: 1.8rem;
+    }
+
+    .research-page {
+        padding-bottom: 0;
+    }
+
+    .research-topic {
+        display: block;
+        padding: 1.55rem 0;
+    }
+
+    .research-topic h3 {
+        margin-bottom: 0.7rem;
+    }
+
+    .research-publications {
+        margin-top: 1rem;
+    }
+
+    .research-paper-list {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .research-paper {
+        grid-template-columns: 74px minmax(0, 1fr);
+    }
+
+    .research-paper-image {
+        width: 74px;
+        height: 62px;
     }
 
     .software-item {
@@ -830,7 +1032,7 @@ svg {
     }
 
     .site-nav .nav-link {
-        font-size: 0.7rem;
+        font-size: 0.78rem;
     }
 }
 
@@ -897,7 +1099,7 @@ svg {
     color: #ffffff;
     padding: 0.75rem 1rem;
     border-radius: 6px;
-    font-size: 0.875rem;
+    font-size: 1.06rem;
     line-height: 1.4;
     white-space: nowrap;
     max-width: 300px;

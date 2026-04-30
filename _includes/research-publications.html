@@ -1,0 +1,22 @@
+{% assign papers = include.items %}
+{% if papers %}
+<div class="research-publications">
+    <div class="research-paper-list">
+        {% for paper in papers %}
+        <a class="research-paper{% unless paper.image %} research-paper-no-image{% endunless %}"
+           href="{{ paper.url }}"
+           target="_blank"
+           rel="noopener">
+            {% if paper.image %}
+            <span class="research-paper-image">
+                <img src="{{ site.baseurl }}/{{ paper.image }}" alt="{{ paper.title | escape }}" loading="lazy">
+            </span>
+            {% endif %}
+            <span class="research-paper-content">
+                <span class="research-paper-title">{{ paper.title }}</span>
+            </span>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

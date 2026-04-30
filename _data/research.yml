@@ -1,0 +1,171 @@
+intro: >-
+  Our research connects electrochemical materials, physics-based modeling,
+  scientific machine learning, and system-level analysis to design safer,
+  higher-performing batteries and sustainable electrochemical technologies.
+
+sections:
+  - id: research-areas
+    title: Research Areas
+    note: >-
+      Current application areas span batteries, electrochemical manufacturing,
+      scientific AI, automated experimentation, and the infrastructure needed to
+      deploy electrochemical technologies.
+    topics:
+      - title: Battery Electrodes and Interfaces Design
+        publications: battery_materials
+        description: >-
+          We design and model materials for next-generation batteries, including
+          cathodes, anodes, electrolytes, and electrochemical interfaces. This
+          work aims to improve energy density, power capability, safety,
+          lifetime, and performance under demanding operating conditions such as
+          fast charging, low temperature, and high-rate cycling.
+
+      - title: Battery Electrolyte Discovery
+        publications: electrolytes
+        description: >-
+          We develop new approaches for discovering and optimizing battery
+          electrolytes. This work spans liquid and solid electrolyte systems,
+          ion transport, solvation structure, interfacial stability, and
+          formulation design for lithium-ion, lithium-metal, and emerging
+          battery chemistries.
+
+      - title: High-Energy-Density Batteries for Electric Aviation
+        publications: electric_aviation
+        description: >-
+          We develop battery materials, models, and design principles for
+          electric aviation, where cells must meet stringent requirements for
+          specific energy, power and lifetime. This research connects materials
+          design to aircraft-relevant duty cycles and system-level performance
+          targets.
+
+      - title: Battery Modeling, Management, and Control
+        publications: battery_modeling
+        description: >-
+          We build models that connect electrochemical mechanisms to cell- and
+          system-level behavior. These models support performance prediction,
+          degradation analysis, state estimation and optimization.
+
+      - title: Electrocatalysis and Electrochemical Manufacturing
+        publications: electrocatalysis_manufacturing
+        description: >-
+          We design and analyze electrochemical systems for sustainable chemical
+          and materials production. Research areas include ammonia synthesis,
+          low-carbon iron and cement production, and broader efforts to
+          electrify chemical manufacturing.
+
+      - title: Electric Mobility and Charging Infrastructure
+        publications: mobility_charging
+        description: >-
+          We have studied the broader energy-system implications of
+          battery-powered transportation, including electric vehicle adoption,
+          charging infrastructure deployment, battery cost modeling, and
+          techno-economic analysis. This work connects electrochemical
+          technology development to transportation and infrastructure planning.
+
+      - title: Foundation Models for Molecules and Materials
+        publications: foundation_models
+        description: >-
+          We train and apply large-scale foundation models that learn general
+          representations of molecules, crystals, and materials from large
+          datasets. These models can be adapted to downstream tasks such as
+          property prediction, electrolyte screening, molecular discovery, and
+          materials design.
+
+      - title: AI Agents for Scientific Research
+        publications: ai_agents
+        description: >-
+          We develop AI agents that can plan, execute, monitor, and refine
+          scientific workflows. In materials simulation, this includes agentic
+          systems that coordinate structure generation, density functional
+          theory workflows, convergence testing, high-performance computing job
+          submission, error handling, and result interpretation. The DREAMS
+          framework is an example of this direction, using a hierarchical
+          multi-agent system for DFT-based materials simulation.
+
+      - title: Automated Experimentation and Self-Driving Labs
+        publications: automated_experimentation
+        description: >-
+          We develop and use automated experimental workflows that combine
+          robotics, data infrastructure, and machine learning. These platforms
+          support rapid preparation, measurement, and optimization of
+          electrolyte formulations. We developed the Clio robotic platform,
+          which integrates multiple experimental modules under a shared software
+          framework, ElyteOS. It autonomously prepares liquid formulations,
+          performs electrochemical measurements, and characterizes their
+          properties. Complementing Clio, the SALSA (Salt Solubility Assessment)
+          module uses a deep learning model for optical recognition, capturing
+          real-time dissolution curves.
+
+  - id: research-methods
+    title: Research Methods
+    note: >-
+      The group combines electronic-structure simulation, molecular dynamics,
+      continuum electrochemical modeling, differentiable physics, phase-field
+      modeling, and high-performance computing.
+    topics:
+      - title: First-Principles Electronic-Structure Modeling
+        publications: first_principles
+        description: >-
+          We use Density Functional Theory (DFT) to study structure-property
+          relation, material stability, transition states, electronic
+          structures, and interfacial reactions. These simulations provide
+          molecular- and atomic-scale insight into electrochemical materials and
+          properties.
+
+      - title: Molecular Dynamics
+        publications: molecular_dynamics
+        description: >-
+          We use Molecular Dynamics (MD) to study solvation structures and
+          transport properties (diffusivity, ionic conductivity, viscosity, etc)
+          of electrolytes to facilitate next-generation electrolyte design. We
+          also apply and develop machine learning interatomic potentials for
+          studying disordered materials and performing high-fidelity large-scale
+          atomistic simulations.
+
+      - title: Continuum Scale Electrochemical Modeling
+        publications: continuum_electrochemical_modeling
+        description: >-
+          We develop models that bridge length and time scales, from atomistic
+          chemistry to transport, interfaces, cell behavior, and system-level
+          performance. This includes models for next generation chemistries such
+          as silicon anodes and conversion cathodes which can not be fully
+          studied using conventional Doyle-Fuller-Newman or Single Particle
+          battery models.
+
+      - title: Differentiable Physics
+        publications: differentiable_electrochemistry
+        description: >-
+          We develop solver-in-the-loop style differentiable models for the
+          purposes of parameter estimation and inverse design. Recent work
+          includes an end-to-end differentiable approach for connecting
+          electrochemical theory with experimental data and learning optimal TVD
+          flux limiters for finite volume schemes. In the past we have also
+          worked on learning closure models using this approach for wall bounded
+          turbulent flows.
+
+
+      - title: Phase-Field Modeling
+        publications: phase_field
+        description: >-
+          We use phase-field models to study morphological evolution in
+          electrochemical materials, with emphasis on how transport, reaction
+          kinetics, and interfacial energetics govern dendrite growth,
+          deposition stability, and degradation. Representative examples include
+          phase-field simulations of lithium electrodeposition and the design of
+          liquid crystalline electrolytes for stabilizing metal deposition and
+          suppressing dendrites.
+
+      - title: High-Performance Computing
+        publications: hpc
+        description: >-
+          We use high-performance computing to scale simulations, materials
+          screening, electrochemical modeling, AI agents, and foundation model
+          training. Large-scale computing enables the group to explore chemical
+          and materials spaces that would be inaccessible with conventional
+          workflows. We have dedicated access to the Artemis high-performance
+          computing cluster, housed in the University of Michigan Lighthouse,
+          which provides CPU, GPU, and large-memory resources for molecular
+          simulation, machine learning, and agentic workflow development. In
+          addition to Artemis, the group has received substantial national
+          cyberinfrastructure allocations through the NSF ACCESS and DOE INCITE
+          programs.

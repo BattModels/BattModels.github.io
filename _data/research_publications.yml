@@ -1,0 +1,108 @@
+battery_materials:
+  - title: "Thermodynamic Origin of Li Underpotential and Overpotential Deposition on Current Collectors"
+    url: "https://pubs.acs.org/doi/full/10.1021/acs.jpcc.5c01078"
+    image: "img/papers/underpotential.jpeg"
+  - title: "Effect of Weakened Bond Covalence on the Electronic, Thermal, and Elastic Properties of Disordered Graphite Monofluorides"
+    url: "https://pubs.acs.org/doi/full/10.1021/acs.jpcc.5c02056"
+    image: "img/papers/cfx.jpeg"
+
+electrolytes:
+  - title: "Differentiable Modeling and Optimization of Non-Aqueous Li-based Battery Electrolyte Solutions Using Geometric Deep Learning"
+    url: "https://doi.org/10.1038/s41467-024-51653-7"
+    image: "img/papers/differentiable_electrolytes.png"
+  - title: "Autonomous Optimization of Non-Aqueous Li-Ion Battery Electrolytes via Robotic Experimentation and Machine Learning Coupling"
+    url: "https://www.nature.com/articles/s41467-022-32938-1"
+    image: "img/papers/autonomous_electrolytes.png"
+
+electric_aviation:
+  - title: "Performance Metrics Required of Next-Generation Batteries to Electrify Commercial Aircraft"
+    url: "https://pubs.acs.org/doi/abs/10.1021/acsenergylett.9b02574"
+    image: "img/papers/electric_aircraft_metrics.jpg"
+  - title: "A Battery Dataset for Electric Vertical Takeoff and Landing Aircraft"
+    url: "https://doi.org/10.1038/s41597-023-02180-5"
+    image: "img/papers/evtol_dataset.jpg"
+
+battery_modeling:
+  - title: "Open-Circuit Voltage Models Should Be Thermodynamically Consistent"
+    url: "https://pubs.acs.org/doi/full/10.1021/acs.jpclett.3c03129"
+    image: "img/papers/ocv_thermodynamics.jpg"
+  - title: "A Model Predictive Control Scheme for Fast Charging via Accurate Quadratic Battery Models"
+    url: "https://ieeexplore.ieee.org/abstract/document/9867614"
+    image: "img/papers/mpc_fast_charging.jpg"
+
+electrocatalysis_manufacturing:
+  - title: "Lithium Nitride Formation in Lithium-Mediated Electrochemical Ammonia Synthesis Can Be Enhanced with the Right Proton Donor"
+    url: "https://www.sciencedirect.com/science/article/pii/S002195172500315X"
+    image: "img/papers/lithium_nitride_toc.jpg"
+  - title: "Electrowinning for Room-Temperature Ironmaking: Mapping the Electrochemical Aqueous Iron Interface"
+    url: "https://pubs.acs.org/doi/full/10.1021/acs.jpcc.4c01867"
+    image: "img/papers/electrowinning_iron.jpg"
+
+mobility_charging:
+  - title: "Scaling Behavior for Electric Vehicle Chargers and Road Map to Addressing the Infrastructure Gap"
+    url: "https://eeg.engin.umich.edu/evse-scaling-behavior/"
+    image: "img/papers/evse_scaling.jpg"
+  - title: "INCEPTS: Software for High-Fidelity Electric Vehicle En Route State of Charge Estimation, Fleet Analysis and Charger Deployment"
+    url: "https://doi.org/10.1016/j.etran.2021.100106"
+    image: "img/papers/incepts.jpg"
+
+first_principles:
+  - title: "DREAMS: Density Functional Theory Based Research Engine for Agentic Materials Simulation"
+    url: "https://arxiv.org/abs/2507.14267"
+    image: "img/papers/dreams_cover.png"
+  - title: "Quantifying Robustness of DFT Predicted Pathways and Activity Determining Elementary Steps for Electrochemical Reactions"
+    url: "https://dx.doi.org/10.1063/1.5056167"
+    image: "img/papers/dft_pathway_robustness.jpg"
+
+molecular_dynamics:
+  - title: "Contrasting Sodium-Ion and Lithium-Ion Localized High-Concentration Electrolytes with Molecular Dynamics Simulations"
+    url: "https://iopscience.iop.org/article/10.1149/MA2025-025785mtgabs"
+    image: "img/papers/sodium_lhce_cover.jpg"
+  - title: "Understanding Ion Pairing in High-Salt Concentration Electrolytes Using Classical Molecular Dynamics Simulations and Its Implications for Nonaqueous Li-O2 Batteries"
+    url: "https://dx.doi.org/10.1021/acs.jpcc.8b00944"
+    image: "img/papers/ion_pairing_high_salt.jpg"
+
+continuum_electrochemical_modeling:
+  - title: "Universal Battery Performance and Degradation Model for Electric Aircraft"
+    url: "https://arxiv.org/abs/2008.01527"
+    image: "img/papers/universal_aircraft_battery_model.jpg"
+  - title: "Open-Circuit Voltage Models Should Be Thermodynamically Consistent"
+    url: "https://pubs.acs.org/doi/full/10.1021/acs.jpclett.3c03129"
+    image: "img/papers/ocv_thermodynamics.jpg"
+
+differentiable_electrochemistry:
+  - title: "Differentiable Electrochemistry: A Paradigm Characterizing Physical Laws in Electrochemical Systems"
+    url: "https://pubs.acs.org/doi/10.1021/acsenergylett.5c03761"
+    image: "img/papers/diff_electrochemistry.jpeg"
+  - title: "Learning Second-Order TVD Flux Limiters Using Differentiable Solvers"
+    url: "https://pubs.aip.org/aip/pof/article/38/3/036102/3381829/Learning-second-order-total-variation-diminishing"
+    image: "img/papers/diff_tvd.jpeg"
+
+foundation_models:
+  - title: "Foundation Models for Discovery and Exploration in Chemical Space"
+    url: "https://arxiv.org/abs/2510.18900"
+    image: "img/papers/scaling.svg"
+  - title: "CLOUD: A Scalable and Physics-Informed Foundation Model for Crystal Representation Learning"
+    url: "https://arxiv.org/abs/2506.17345"
+    image: "img/papers/scope.png"
+
+ai_agents:
+  - title: "DREAMS: Density Functional Theory Based Research Engine for Agentic Materials Simulation"
+    url: "https://arxiv.org/abs/2507.14267"
+    image: "img/papers/dreams_cover.png"
+
+automated_experimentation:
+  - title: "ElyteOS: Software for Automated Electrolyte Preparation, Measurement, and Data Management"
+    url: "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-6wq3x"
+    image: "img/papers/elyteos.jpg"
+  - title: "SALSA: A Low-Cost Self-Driving Lab for Salt Solubility Assessment for Battery Electrolytes"
+    url: "https://chemrxiv.org/doi/full/10.26434/chemrxiv-2025-17lfp"
+    image: "img/papers/salsa.gif"
+
+phase_field:
+  - title: "Open-Sourcing Phase-Field Simulations for Accelerating Energy Materials Design and Optimization"
+    url: "https://doi.org/10.1021/acsenergylett.0c01904"
+    image: "img/papers/open_source_phase_field.jpeg"
+  - title: "Phase-Field Simulations of Lithium Dendrite Growth with Open-Source Software"
+    url: "https://dx.doi.org/10.1021/acsenergylett.8b01009"
+    image: "img/papers/phase_field_dendrite.jpeg"
