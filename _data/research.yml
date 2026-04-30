@@ -135,16 +135,14 @@ sections:
       - title: Differentiable Physics
         publications: differentiable_electrochemistry
         description: >-
-          We develop differentiable models and solvers for electrochemical and
-          fluid systems, allowing gradients to backpropagate through
-          physics-based simulations for parameter estimation, sensitivity
-          analysis, inverse design, and mechanistic discovery. Recent examples
-          include differentiable electrochemistry, which connects theory with
-          experiment through end-to-end differentiable electrochemical
-          simulations, and our work on differentiable finite-volume solvers that
-          learn optimal second-order TVD flux limiters from data while
-          preserving key numerical properties such as stability, monotonicity,
-          and accuracy.
+          We develop solver-in-the-loop style differentiable models for the
+          purposes of parameter estimation and inverse design. Recent work
+          includes an end-to-end differentiable approach for connecting
+          electrochemical theory with experimental data and learning optimal TVD
+          flux limiters for finite volume schemes. In the past we have also
+          worked on learning closure models using this approach for wall bounded
+          turbulent flows.
+
 
       - title: Phase-Field Modeling
         publications: phase_field
