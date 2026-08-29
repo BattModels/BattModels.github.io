@@ -117,6 +117,14 @@ vazumah:
     bio: Mechanical Engineering
     email: "vazumah [at] andrew [dot] cmu [dot] com"
 
+vighnesh:
+    display_name: "Vighnesh Jisha Rajesh"
+    role: phd
+    image: img/people/vighnesh.png
+    bio: Aerospace Engineering
+    webpage: "https://sites.google.com/view/vighneshjr-personal-page"
+    email: vighnesh [at] umich [dot] edu
+    
 cskelly:
     display_name: "Celia Kelly"
     role: phd
