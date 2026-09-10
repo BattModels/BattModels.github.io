@@ -110,6 +110,14 @@ hongyili:
     bio: Mechanical Engineering
     email: hongyili [at] andrew [dot] cmu [dot] edu
 
+stasko:
+    display_name: "Stanislaw Kowalski"
+    role: phd
+    image: img/people/stasko.png
+    bio: Aerospace Engineering
+    webpage: "https://www.linkedin.com/in/stanislaw-kowalski"
+    email: stasko [at] umich [dot] edu
+
 tz4:
     display_name: "Tianyi Zhang"
     role: phd
